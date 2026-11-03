@@ -42,6 +42,7 @@ tests/                       тесты анализатора эссе
 | `demo_steps.json` | 8 шагов демо-подачи, поля, подсказки, тестовые значения |
 | `essay_prompts.json`, `essay_lessons.json`, `essay_examples.json`, `cliches.json` | раздел эссе |
 | `i18n/en.json`, `i18n/ru.json` | словари интерфейса с общими ключами (переключатель RU/EN пока не показан) |
+| `promos.json` | реклама учебных сайтов SAT Boot Camp и IELTS Boot Camp (главная, модуль Exams, уроки про тесты, подвал) |
 | `settings.json` | бренд, `indexable`, ссылка на Telegram-бота, цена и срок, `disclosure_text` |
 | `verification_log.json` | журнал второй проверки данных |
 

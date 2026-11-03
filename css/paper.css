@@ -5,6 +5,31 @@
   border: 3px solid var(--navy); border-radius: 8px; box-shadow: 4px 4px 0 var(--navy);
 }
 
+/* реклама учебных сайтов (SAT Boot Camp, IELTS Boot Camp) */
+.promo { display: grid; gap: .9rem; }
+.promo--home { padding: clamp(64px, 10vw, 110px) var(--gutter); }
+.promo--inline { padding: clamp(18px, 3vw, 26px); background: var(--paper); border: 3px solid var(--navy); border-radius: 14px; box-shadow: 6px 6px 0 var(--navy); margin-top: clamp(24px, 4vw, 40px); }
+.promo > * { margin: 0; }
+.promo__kicker { color: var(--red-dark); }
+.promo__title { font-size: clamp(1.7rem, 5.4vw, 2.8rem); line-height: 1.12; }
+.promo__lead { max-width: 46rem; }
+.promo__grid { display: grid; gap: clamp(16px, 3vw, 26px); grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); margin-top: .6rem; }
+.promo__card { position: relative; display: grid; gap: .45rem; align-content: start; padding: clamp(18px, 3vw, 26px) clamp(18px, 3vw, 26px) clamp(18px, 3vw, 24px); text-decoration: none; color: var(--ink); background: var(--paper); border: 3px solid var(--navy); border-radius: 14px; box-shadow: 6px 6px 0 var(--red); transition: transform .12s, box-shadow .12s; }
+.promo__card--gold { background: var(--gold); }
+.promo__card--sky { background: var(--sky); }
+.promo__card:nth-child(odd) { transform: rotate(-.7deg); }
+.promo__card:nth-child(even) { transform: rotate(.6deg); }
+.promo__card:hover { transform: translate(-2px, -3px) rotate(0); box-shadow: 9px 9px 0 var(--red); }
+.promo__card:active { transform: translate(3px, 3px); box-shadow: 2px 2px 0 var(--red); }
+.promo__badge { justify-self: start; padding: .15rem .8rem; font: 400 1.5rem/1.2 var(--display); color: #fff; background: var(--navy); border: 3px solid var(--navy); border-radius: 8px; box-shadow: 3px 3px 0 var(--red); transform: rotate(-3deg); }
+.promo__name { font: 400 1.5rem/1.15 var(--display); color: var(--navy); }
+.promo__headline { font: 700 1.1rem/1.2 var(--cond); text-transform: uppercase; letter-spacing: .06em; color: var(--navy); }
+.promo__text { font-size: 1.02rem; line-height: 1.45; }
+.promo__cta { justify-self: start; margin-top: .5rem; padding: .5rem 1.1rem; font: 700 1.1rem/1.1 var(--cond); text-transform: uppercase; letter-spacing: .06em; color: #fff; background: var(--red); border: 3px solid var(--navy); border-radius: 8px; box-shadow: 3px 3px 0 var(--navy); }
+.promo__note { font-size: .92rem; color: var(--muted); max-width: 46rem; }
+@media (prefers-reduced-motion: reduce) { .promo__card { transition: none; } }
+html.reduced .promo__card, html:not(.js) .promo__card { transition: none; }
+
 /* штамп: статичный SVG с заранее нарисованным неровным краем (генерируется в tools/build.mjs),
    без SVG-фильтров, поэтому при анимации браузер ничего не пересчитывает */
 .stamp { position: absolute; right: 5%; bottom: 6%; width: 190px; transform-origin: 50% 50%; pointer-events: none; }

@@ -1,4 +1,9 @@
 import { T, R, esc, rootFor, readJson } from '../lib.mjs';
+import { promoHtml } from '../promo.mjs';
+
+// Реклама учебных сайтов (SAT Boot Camp, IELTS Boot Camp) в модуле про экзамены и его уроках
+const PROMO = { 'exams': ['sat', 'ielts'], 'exams/sat-act': ['sat'], 'exams/english-tests': ['ielts'], 'exams/prepare-tests': ['sat', 'ielts'] };
+const promoFor = (key) => (PROMO[key] ? `\n${promoHtml(PROMO[key], 'inline')}\n` : '');
 
 const fill = (s, vars) => s.replace(/\{(\w+)\}/g, (_, k) => vars[k]);
 
@@ -101,6 +106,7 @@ ${checks}
 ${mistakes}
       </ul></section>
       ${related ? `<p class="related"><span class="label">${T('course.related')}:</span> ${related}</p>` : ''}
+      ${promoFor(m.id)}
       <nav class="pager" aria-label="${T('course.all')}">
         ${prev ? `<a href="${r}course/${prev.id}/">← ${T('course.prev.module')}: ${esc(prev.title)}</a>` : '<span></span>'}
         ${next ? `<a href="${r}course/${next.id}/">${T('course.next.module')}: ${esc(next.title)} →</a>` : `<a href="${r}demo/">${T('cat.u.plan.cta')} →</a>`}
@@ -129,6 +135,7 @@ ${mistakes}
       <div class="prose" lang="ru">
           ${blocks(l.body)}
       </div>
+      ${promoFor(`${m.id}/${l.id}`)}
       <p class="lesson__done"><button type="button" class="btn btn--gold" data-mark aria-pressed="false" data-on="${esc(T('course.done.on'))}" data-off="${esc(T('course.done'))}">${T('course.done')}</button></p>
       <nav class="pager" aria-label="${esc(m.title)}">
         ${prevL ? `<a href="${prevL.href}">← ${T('course.prev.lesson')}: ${esc(prevL.title)}</a>` : '<span></span>'}

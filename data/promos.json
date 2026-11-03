@@ -1,0 +1,26 @@
+{
+  "items": [
+    {
+      "id": "sat",
+      "badge": "SAT",
+      "name": "SAT Boot Camp",
+      "url": "https://anycxmp5.github.io/sat-bootcamp/",
+      "headline": "Practice for the SAT",
+      "text_ru": "Учебный проект с курсом, гидом по экзамену и пробными тестами для подготовки к SAT.",
+      "note_ru": "SAT Boot Camp — независимый учебный проект, он не связан с College Board.",
+      "cta": "Open SAT Boot Camp",
+      "tone": "gold"
+    },
+    {
+      "id": "ielts",
+      "badge": "IELTS",
+      "name": "IELTS Boot Camp",
+      "url": "https://anycxmp5.github.io/ielts-bootcamp/",
+      "headline": "Practice for the IELTS",
+      "text_ru": "Учебный проект: курс, словарь, гид по экзамену, пробные тесты и калькулятор балла для подготовки к IELTS Academic.",
+      "note_ru": "IELTS Boot Camp — независимый учебный проект, он не связан с IDP, British Council и Cambridge.",
+      "cta": "Open IELTS Boot Camp",
+      "tone": "sky"
+    }
+  ]
+}

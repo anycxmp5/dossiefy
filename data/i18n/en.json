@@ -344,5 +344,14 @@
   "nf.meta.description": "This page does not exist.",
   "nf.h1": "Page not found",
   "nf.text": "That page does not exist. Here is where you can go next.",
-  "nf.home": "Home"
+  "nf.home": "Home",
+  "promo.kicker": "Practice sites",
+  "promo.title": "Prepare for the <mark class=\"hl\">exams</mark>",
+  "promo.title.plain": "Practice for the exams",
+  "promo.text": "SAT and English tests are a separate part of your preparation. We built two practice sites for them.",
+  "promo.note": "Both are independent educational projects and are not affiliated with College Board, IDP, British Council or Cambridge.",
+  "promo.newtab": "opens in a new tab",
+  "footer.sat": "SAT Boot Camp",
+  "footer.ielts": "IELTS Boot Camp",
+  "promo.text.one": "For practice on this topic we built a separate practice site."
 }

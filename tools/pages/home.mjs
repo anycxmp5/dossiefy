@@ -1,6 +1,7 @@
 import { T, R, en, ru, esc, readJson, readText, render } from '../lib.mjs';
 import { loadUniversities, firstRound } from '../data.mjs';
 import { stampSvg } from '../stamp.mjs';
+import { promoHtml } from '../promo.mjs';
 
 // Заголовок hero: буквы разбиваются при сборке, анимация идёт на чистом CSS (виден сразу, без ожидания JS)
 function heroTitleLines() {
@@ -37,6 +38,7 @@ export default async function pages() {
     stampMarkup: stampSvg(T('hero.stamp'), T('hero.stamp.sub')),
     processSteps,
     catalogPreview,
+    promo: promoHtml(['sat', 'ielts'], 'home'),
   });
 
   return [{
