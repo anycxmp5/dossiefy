@@ -1,0 +1,67 @@
+{
+  "id": "stanford",
+  "name": "Stanford University",
+  "common_app_slug": "stanford-university",
+  "official_admissions_url": "https://admission.stanford.edu",
+  "fields": {
+    "deadlines": {
+      "value": [
+        { "round": "Restrictive Early Action", "date": "November 1 (October 15 with an Optional Arts Portfolio)" },
+        { "round": "Regular Decision", "date": "January 5 (December 5 with an Optional Arts Portfolio)" }
+      ],
+      "cycle": "not stated",
+      "note_ru": "Страница дедлайнов обновлена 10 сентября 2026. Школьные документы и рекомендации можно прислать до 1 ноября (REA) и до 5 января (RD). Промежуточные оценки нужны до 15 февраля.",
+      "source_url": "https://admission.stanford.edu/apply/first-year",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "tests": {
+      "value": "ACT or SAT required",
+      "cycle": "not stated",
+      "note_ru": "Баллы можно указать самостоятельно, официальные нужны только после зачисления. Минимального балла нет, и ни один балл не гарантирует поступление. Для класса 2029 тесты были необязательны, сейчас на странице написано «required».",
+      "source_url": "https://admission.stanford.edu/apply/first-year/testing.html",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "english": {
+      "value": "Not stated on the pages checked",
+      "cycle": "not stated",
+      "note_ru": "Требования к тесту по английскому на проверенных страницах не найдены. Откройте страницу International Applicants на сайте Stanford.",
+      "source_url": "https://admission.stanford.edu/apply/international/index.html",
+      "verified_on": "2026-11-03",
+      "status": "needs_verification"
+    },
+    "essays": {
+      "value": "Common App personal essay plus the Stanford Questions: short answers (3–50 words) and essays (100–250 words)",
+      "cycle": "not stated",
+      "note_ru": "Stanford Questions открываются в Common App после добавления Stanford в список колледжей. Заявка становится доступной в начале августа каждого года.",
+      "source_url": "https://admission.stanford.edu/apply/first-year/apply.html",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "international": {
+      "value": "Application requirements are the same for all applicants; the difference is in financial aid policy",
+      "cycle": "not stated",
+      "note_ru": "Граждане США и постоянные жители, живущие и учащиеся за рубежом, считаются внутренними абитуриентами.",
+      "source_url": "https://admission.stanford.edu/apply/international/index.html",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "aid": {
+      "value": "For international citizens, a request for aid is a factor in admission (more selective); full demonstrated need of all admitted students is met regardless of citizenship; no merit scholarships",
+      "cycle": "not stated",
+      "note_ru": "Если вы не подали на помощь в заявке и поступили, получить её позже за четыре года нельзя. Выданные мерит-стипендии: Stanford не даёт их, кроме небольшого числа спортивных.",
+      "source_url": "https://admission.stanford.edu/apply/international/index.html",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "aid_forms": {
+      "value": "Forms are not stated on the pages checked",
+      "cycle": "not stated",
+      "note_ru": "Какие анкеты нужны иностранной семье, на проверенных страницах не указано. Смотрите сайт финансовой помощи Stanford.",
+      "source_url": "https://admission.stanford.edu/apply/international/index.html",
+      "verified_on": "2026-11-03",
+      "status": "needs_verification"
+    }
+  }
+}

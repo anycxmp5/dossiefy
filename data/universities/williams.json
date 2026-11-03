@@ -1,0 +1,67 @@
+{
+  "id": "williams",
+  "name": "Williams College",
+  "common_app_slug": "williams-college",
+  "official_admissions_url": "https://www.williams.edu/admission-aid/",
+  "fields": {
+    "deadlines": {
+      "value": [
+        { "round": "Early Decision (binding)", "date": "November 15" },
+        { "round": "Regular Decision", "date": "January 4" }
+      ],
+      "cycle": "not stated",
+      "note_ru": "Решение по Early Decision приходит к 14 декабря, по Regular Decision к 1 апреля, ответить нужно до 1 мая. Промежуточные оценки (midyear reports) нужны до 6 февраля. Год на странице не указан.",
+      "source_url": "https://www.williams.edu/admission-aid/how-to-apply/first-year/",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "tests": {
+      "value": "Test-optional: submitting SAT or ACT is up to you",
+      "cycle": "not stated",
+      "note_ru": "Williams пишет, что политика действительно test optional. Если баллы приложены, считается superscore по SAT и ACT. Раздел ACT Science необязателен.",
+      "source_url": "https://www.williams.edu/admission-aid/how-to-apply/first-year/",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "english": {
+      "value": "Encouraged, not required, if English is not your first language or the language of instruction: TOEFL, IELTS or Duolingo",
+      "cycle": "not stated",
+      "note_ru": "Williams называет высокий уровень английского «условием поступления» и просит приложить результаты теста. Ориентиры конкурентных абитуриентов указаны на странице, но шкала TOEFL там менялась с января 2026, поэтому сверьте её на сайте.",
+      "source_url": "https://www.williams.edu/admission-aid/how-to-apply/additional-applicant-information/international/",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "essays": {
+      "value": "No required Williams writing supplement; an optional academic writing sample may be submitted",
+      "cycle": "not stated",
+      "note_ru": "Williams не требует дополнительного эссе. Можно приложить образец академического письма на любую тему, он не обязан быть оценённым преподавателем. Лабораторные отчёты не принимаются.",
+      "source_url": "https://www.williams.edu/admission-aid/how-to-apply/first-year/",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "international": {
+      "value": "Same procedures as US applicants; no additional forms or tests required",
+      "cycle": "not stated",
+      "note_ru": "Если вы гражданин США и другой страны или постоянный житель США, подавайте как внутренний абитуриент.",
+      "source_url": "https://www.williams.edu/admission-aid/how-to-apply/additional-applicant-information/international/",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "aid": {
+      "value": "About 70% of international students receive aid, averaging more than $90,000 a year; tick \"Yes\" for financial aid on the admission application; need-blind status is not stated on this page",
+      "cycle": "not stated",
+      "note_ru": "Если помощь может понадобиться в любой момент учёбы, нужно отметить «Yes» в вопросе о помощи прямо в заявке. Анкеты на помощь при подаче заявки не отправляются: инструкции приходят вместе с предложением о зачислении.",
+      "source_url": "https://www.williams.edu/admission-aid/how-to-apply/additional-applicant-information/international/",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "aid_forms": {
+      "value": "Aid forms are requested after admission; the set of forms was not stated on the page",
+      "cycle": "not stated",
+      "note_ru": "Откройте раздел Financial Aid Requirements на странице для иностранных абитуриентов Williams.",
+      "source_url": "https://www.williams.edu/admission-aid/how-to-apply/additional-applicant-information/international/",
+      "verified_on": "2026-11-03",
+      "status": "needs_verification"
+    }
+  }
+}

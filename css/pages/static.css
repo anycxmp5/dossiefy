@@ -1,0 +1,15 @@
+/* Платная проверка и служебные страницы */
+.muted { color: var(--muted); }
+.hint { margin: 0; font-size: .95rem; color: var(--muted); }
+.facts { margin: 0; display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); }
+.facts > div { padding: 14px 16px; background: var(--paper); border: 3px solid var(--navy); border-radius: 12px; box-shadow: 4px 4px 0 var(--navy); }
+.facts dt { font: 700 .95rem/1.2 var(--cond); text-transform: uppercase; letter-spacing: .06em; color: var(--navy-2); }
+.facts dd { margin: .3rem 0 0; font-weight: 700; font-size: 1.1rem; }
+.fact__ru { display: block; font-weight: 400; font-size: .95rem; color: var(--muted); }
+.how { padding: 1rem 1.2rem; background: var(--paper); border: 3px solid var(--navy); border-radius: 12px; max-width: 46rem; }
+.how h2 { margin-top: 0; }
+.card h2 { font-size: 1.4rem; margin: 0 0 .5rem; }
+.card p { margin: .5rem 0 0; }
+.wide { max-width: 60rem; }
+.links404 { display: flex; flex-wrap: wrap; gap: 12px; }
+.prose .table-wrap table a { color: var(--red-dark); }

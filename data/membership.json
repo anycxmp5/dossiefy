@@ -1,0 +1,122 @@
+{
+  "amherst": {
+    "first_year_participation": true,
+    "membership_year": 2026,
+    "city": "Amherst",
+    "state": "MA",
+    "region": "New England",
+    "source_url": "https://www.commonapp.org/explore/amherst-college/",
+    "verified_on": "2026-11-03",
+    "status": "verified"
+  },
+  "brown": {
+    "first_year_participation": true,
+    "membership_year": 2026,
+    "city": "Providence",
+    "state": "RI",
+    "region": "New England",
+    "source_url": "https://www.commonapp.org/explore/brown-university/",
+    "verified_on": "2026-11-03",
+    "status": "verified"
+  },
+  "duke": {
+    "first_year_participation": true,
+    "membership_year": 2026,
+    "city": "Durham",
+    "state": "NC",
+    "region": "South",
+    "source_url": "https://www.commonapp.org/explore/duke-university/",
+    "verified_on": "2026-11-03",
+    "status": "verified"
+  },
+  "harvard": {
+    "first_year_participation": true,
+    "membership_year": 2026,
+    "city": "Cambridge",
+    "state": "MA",
+    "region": "New England",
+    "source_url": "https://www.commonapp.org/explore/harvard-university/",
+    "verified_on": "2026-11-03",
+    "status": "verified"
+  },
+  "jhu": {
+    "first_year_participation": true,
+    "membership_year": 2026,
+    "city": "Baltimore",
+    "state": "MD",
+    "region": "Mid-Atlantic",
+    "source_url": "https://www.commonapp.org/explore/johns-hopkins-university/",
+    "verified_on": "2026-11-03",
+    "status": "verified"
+  },
+  "northwestern": {
+    "first_year_participation": true,
+    "membership_year": 2026,
+    "city": "Evanston",
+    "state": "IL",
+    "region": "Midwest",
+    "source_url": "https://www.commonapp.org/explore/northwestern-university/",
+    "verified_on": "2026-11-03",
+    "status": "verified"
+  },
+  "princeton": {
+    "first_year_participation": true,
+    "membership_year": 2026,
+    "city": "Princeton",
+    "state": "NJ",
+    "region": "Mid-Atlantic",
+    "source_url": "https://www.commonapp.org/explore/princeton-university/",
+    "verified_on": "2026-11-03",
+    "status": "verified"
+  },
+  "rice": {
+    "first_year_participation": true,
+    "membership_year": 2026,
+    "city": "Houston",
+    "state": "TX",
+    "region": "Southwest",
+    "source_url": "https://www.commonapp.org/explore/rice-university/",
+    "verified_on": "2026-11-03",
+    "status": "verified"
+  },
+  "stanford": {
+    "first_year_participation": true,
+    "membership_year": 2026,
+    "city": "Stanford",
+    "state": "CA",
+    "region": "West",
+    "source_url": "https://www.commonapp.org/explore/stanford-university/",
+    "verified_on": "2026-11-03",
+    "status": "verified"
+  },
+  "vanderbilt": {
+    "first_year_participation": true,
+    "membership_year": 2026,
+    "city": "Nashville",
+    "state": "TN",
+    "region": "South",
+    "source_url": "https://www.commonapp.org/explore/vanderbilt-university/",
+    "verified_on": "2026-11-03",
+    "status": "verified"
+  },
+  "williams": {
+    "first_year_participation": true,
+    "membership_year": 2026,
+    "city": "Williamstown",
+    "state": "MA",
+    "region": "New England",
+    "source_url": "https://www.commonapp.org/explore/williams-college/",
+    "verified_on": "2026-11-03",
+    "status": "verified"
+  },
+  "yale": {
+    "first_year_participation": true,
+    "membership_year": 2026,
+    "city": "New Haven",
+    "state": "CT",
+    "region": "New England",
+    "source_url": "https://www.commonapp.org/explore/yale-university/",
+    "verified_on": "2026-11-03",
+    "status": "verified"
+  }
+}

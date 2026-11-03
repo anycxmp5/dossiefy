@@ -1,0 +1,120 @@
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+      <symbol id="star" viewBox="0 0 24 24"><path d="M12 1.8l3 6.6 7.2.8-5.4 4.9 1.5 7.1L12 17.5l-6.3 3.7 1.5-7.1L1.8 9.2 9 8.4z"/></symbol>
+    </svg>
+
+    <section class="hero" data-hero aria-labelledby="hero-title">
+      <div class="hero__pin" data-pin>
+
+        <div class="layer layer--desk" data-layer="desk" aria-hidden="true">
+          <svg class="deco deco--star-ghost" viewBox="0 0 24 24"><use href="#star"/></svg>
+          <div class="deco deco--dots"></div>
+          <div class="deco deco--tape"></div>
+          <svg class="deco deco--pennant" viewBox="0 0 130 60"><path d="M4 4h122L4 56z" fill="#0b2455"/><path d="M26 22l3.2 6.6 7.2.9-5.3 4.9 1.4 7.1-6.5-3.6-6.5 3.6 1.4-7.1-5.3-4.9 7.2-.9z" fill="#f2b705" transform="translate(6 -7) scale(.9)"/></svg>
+          <svg class="deco deco--pencil" viewBox="0 0 400 30">
+            <polygon points="2,15 40,3 40,27" fill="#fbf4e4" stroke="#0b2455" stroke-width="3" stroke-linejoin="round"/>
+            <polygon points="2,15 13,11 13,19" fill="#0b2455"/>
+            <rect x="40" y="3" width="300" height="24" fill="#f2b705" stroke="#0b2455" stroke-width="3"/>
+            <rect x="340" y="3" width="24" height="24" fill="#c9d3e6" stroke="#0b2455" stroke-width="3"/>
+            <rect x="364" y="3" width="30" height="24" rx="6" fill="#c8102e" stroke="#0b2455" stroke-width="3"/>
+          </svg>
+        </div>
+
+        <div class="scene" data-scene>
+          <div class="folder" data-folder>
+            <div class="folder__back" aria-hidden="true"><span class="folder__tab">00</span></div>
+
+            <div class="folder__sheets">
+              <div class="sheet sheet--3" aria-hidden="true"></div>
+              <div class="sheet sheet--2" aria-hidden="true"></div>
+              <article class="sheet sheet--1" data-sheet>
+                <p class="label sheet__kicker" data-reveal>{{t:hero.sheet.kicker}}</p>
+                <p class="sheet__lead" lang="ru" data-reveal>{{r:hero.sheet.lead}}</p>
+                <div class="sheet__actions" data-reveal>
+                  <a class="btn" href="{{c:root}}course/">{{t:hero.sheet.cta.course}}</a>
+                  <a class="btn btn--ghost" href="{{c:root}}demo/">{{t:hero.sheet.cta.demo}}</a>
+                </div>
+                <p class="sheet__note" lang="ru" data-reveal>{{r:hero.sheet.note}}</p>
+                <div class="stamp" data-stamp aria-hidden="true">{{c:stampMarkup}}</div>
+              </article>
+            </div>
+
+            <div class="folder__cover" data-cover>
+              <div class="cover__face cover__face--front">
+                <div>
+                  <p class="label cover__label">{{t:hero.cover.label}}</p>
+                  <div class="cover__stars" aria-hidden="true">
+                    <svg viewBox="0 0 24 24"><use href="#star"/></svg><svg viewBox="0 0 24 24"><use href="#star"/></svg><svg viewBox="0 0 24 24"><use href="#star"/></svg>
+                  </div>
+                </div>
+                <h1 id="hero-title" class="cover__title" data-split aria-label="{{t:hero.title.line1}} {{t:hero.title.line2}}">
+                  {{c:heroTitleLines}}
+                </h1>
+                <div>
+                  <p class="label cover__sub">{{t:hero.cover.sub}}</p>
+                  <p class="label cover__hint" data-hint><span>{{t:hero.cover.hint}}</span><i aria-hidden="true"></i></p>
+                </div>
+              </div>
+              <div class="cover__face cover__face--inside" aria-hidden="true"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="layer layer--fore" data-layer="fore" aria-hidden="true">
+          <div class="sticky">{{t:hero.sticky}}</div>
+          <svg class="clip" viewBox="0 0 40 120" width="40" height="120" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 96V24a10 10 0 0 1 20 0v72a16 16 0 0 1-32 0V34"/>
+          </svg>
+          <svg class="sticker" viewBox="0 0 80 80"><circle cx="40" cy="40" r="36" fill="#c8102e" stroke="#0b2455" stroke-width="4"/><path d="M40 14l7.4 15.6 17 2-12.6 11.6 3.4 16.8L40 51.4 24.8 60l3.4-16.8L15.6 31.6l17-2z" fill="#fff"/></svg>
+        </div>
+
+        <p class="sr-only">{{t:a11y.scrollHint}}</p>
+      </div>
+    </section>
+
+    <section id="process" class="process band-navy" data-process aria-labelledby="process-title">
+      <div class="process__pin" data-process-pin>
+        <header class="process__head">
+          <p class="label process__kicker">{{t:process.kicker}}</p>
+          <h2 id="process-title" class="process__title" data-words>{{t:process.title}}</h2>
+          <p class="label process__counter" data-counter data-tpl="{{t:process.counter}}" aria-hidden="true">{{t:process.counter}}</p>
+        </header>
+        <ol class="process__stack" data-stack>
+{{c:processSteps}}
+        </ol>
+      </div>
+    </section>
+
+    <section id="catalog" class="catalog-teaser" aria-labelledby="catalog-title">
+      <div class="catalog-teaser__tab" aria-hidden="true">{{t:catalog.tab}}</div>
+      <div class="catalog-teaser__body">
+        <h2 id="catalog-title" class="catalog-teaser__title" data-words>{{t:catalog.title}}</h2>
+        <p class="catalog-teaser__text" lang="ru">{{r:catalog.text}}</p>
+        <p class="catalog-teaser__note" lang="ru">{{r:catalog.note}}</p>
+      </div>
+      <div class="folders">
+{{c:catalogPreview}}
+      </div>
+      <p class="catalog-teaser__cta"><a class="btn" href="{{c:root}}catalog/">{{t:catalog.cta}}</a></p>
+    </section>
+
+    <section id="essays" class="essay-teaser" aria-labelledby="essay-title">
+      <div class="essay-teaser__copy">
+        <p class="label essay-teaser__kicker">{{t:essay.kicker}}</p>
+        <h2 id="essay-title" class="essay-teaser__title" data-words>{{t:essay.title}}</h2>
+        <p lang="ru">{{r:essay.text}}</p>
+        <p class="essay-teaser__disclaimer" lang="ru">{{r:essay.disclaimer}}</p>
+        <div class="essay-teaser__review">
+          <h3 class="essay-teaser__review-title">{{t:essay.review.title}}</h3>
+          <p lang="ru">{{r:essay.review.text}}</p>
+        </div>
+        <p class="essay-teaser__actions">
+          <a class="btn" href="{{c:root}}essays/">{{t:essay.cta.lessons}}</a>
+          <a class="btn btn--ghost" href="{{c:root}}essays/checker/">{{t:essay.cta.check}}</a>
+          <a class="btn btn--gold" href="{{c:root}}review/">{{t:essay.cta.review}}</a>
+        </p>
+      </div>
+      <div class="essay-sheet" data-fold>
+        <p class="essay-sheet__text">{{t:essay.sample.before}}<mark class="essay-sheet__mark">{{t:essay.sample.mark}}</mark>{{t:essay.sample.after}}</p>
+        <p class="essay-sheet__margin" lang="ru">{{r:essay.sample.margin}}</p>
+      </div>
+    </section>

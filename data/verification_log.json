@@ -1,0 +1,21 @@
+{
+  "second_check": {
+    "date": "2026-11-03",
+    "method": "Случайная выборка 20% значений каталога (seed 20261103, tools/sample-values.mjs), повторное чтение тех же официальных страниц свежими запросами и сравнение с сохранёнными значениями.",
+    "total_values": 84,
+    "sampled": 17,
+    "matched": 16,
+    "discrepancies_found": 0,
+    "updated_with_new_information": 1,
+    "share_of_discrepancies": "0 из 17 (0%)",
+    "notes": [
+      "Расхождений между сохранённым значением и официальной страницей не найдено.",
+      "duke.aid_forms: раньше было «анкеты не названы»; при перепроверке на странице финансовой помощи Duke найдены CSS Profile, FAFSA и сроки (3 ноября и 1 февраля). Значение дополнено, статус остаётся needs_verification, потому что неясно, какие анкеты нужны иностранцам.",
+      "brown.aid_forms: перепроверено, на странице по-прежнему нет сведений об анкетах для иностранцев; статус needs_verification сохранён."
+    ],
+    "sampled_values": [
+      "amherst.aid", "amherst.deadlines", "amherst.essays", "amherst.tests", "brown.aid_forms", "brown.essays", "duke.aid", "duke.aid_forms", "duke.essays",
+      "harvard.essays", "jhu.aid", "jhu.aid_forms", "northwestern.international", "northwestern.tests", "rice.deadlines", "stanford.essays", "williams.international"
+    ]
+  }
+}

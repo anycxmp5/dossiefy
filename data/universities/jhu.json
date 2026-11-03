@@ -1,0 +1,68 @@
+{
+  "id": "jhu",
+  "name": "Johns Hopkins University",
+  "common_app_slug": "johns-hopkins-university",
+  "official_admissions_url": "https://apply.jhu.edu",
+  "fields": {
+    "deadlines": {
+      "value": [
+        { "round": "Early Decision I (binding)", "date": "November 1, 2026" },
+        { "round": "Early Decision II (binding)", "date": "January 2, 2027" },
+        { "round": "Regular Decision", "date": "January 2, 2027" }
+      ],
+      "cycle": "2026–27",
+      "note_ru": "Даты указаны с годом. Срок подачи анкет на помощь: 15 ноября 2026 для ED I и 15 января 2027 для ED II и RD. Решения: 11 декабря 2026 (ED I), 12 февраля 2027 (ED II), 24 марта 2027 (RD).",
+      "source_url": "https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "tests": {
+      "value": "SAT or ACT required",
+      "cycle": "2026–27",
+      "note_ru": "Johns Hopkins требует стандартизированные тесты. Можно сначала указать баллы самостоятельно, а официальные отправить, если вы поступили и решили учиться.",
+      "source_url": "https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "english": {
+      "value": "TOEFL, IELTS, Duolingo or Cambridge English recommended if your primary language is not English or you have not attended an English-language school for the last three years",
+      "cycle": "not stated",
+      "note_ru": "Слово на странице именно «рекомендуются», а не «обязательны».",
+      "source_url": "https://apply.jhu.edu/international-applicants/",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "essays": {
+      "value": "Common App personal essay plus one Hopkins supplemental essay (350-word limit) about engaging across differences",
+      "cycle": "2026–27",
+      "note_ru": "Страница называет prompt 2026–2027: чему вы научились, общаясь с людьми, которые отличаются от вас, и как это повлияло на ваше отношение к сообществу и совместной работе.",
+      "source_url": "https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "international": {
+      "value": "Certification of Finances (COF) form required; official non-English documents need a verified English translation",
+      "cycle": "not stated",
+      "note_ru": "Все иностранные граждане обязаны подтвердить доступное финансирование обучения формой Certification of Finances. Подавшие на помощь отправляют ещё и CSS Profile.",
+      "source_url": "https://apply.jhu.edu/international-applicants/",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "aid": {
+      "value": "Need-based and merit scholarships available for international applicants (both limited); 100% of demonstrated need met for international citizens; aid must be requested as a first-year applicant",
+      "cycle": "not stated",
+      "note_ru": "Если помощь понадобится в любой из четырёх лет, подавать на неё нужно сразу при поступлении на первый курс, потом нельзя. Конкурс стипендий за заслуги автоматический, отдельной анкеты нет.",
+      "source_url": "https://apply.jhu.edu/international-applicants/",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "aid_forms": {
+      "value": "CSS Profile (code 5332) plus the Certification of Finances form",
+      "cycle": "not stated",
+      "note_ru": "CSS Profile отправляется по коду 5332 к сроку финансовой помощи вашего плана подачи.",
+      "source_url": "https://apply.jhu.edu/tuition-aid/how-to-apply-for-financial-aid/",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    }
+  }
+}

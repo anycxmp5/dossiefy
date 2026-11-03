@@ -1,0 +1,62 @@
+/* Общие компоненты внутренних страниц: каркас, заголовки, плашки, чипы, карточки, проза */
+main { max-width: 1120px; margin: 0 auto; padding: clamp(24px, 4vw, 44px) var(--gutter) clamp(56px, 8vw, 96px); }
+main > * + * { margin-top: clamp(20px, 3vw, 32px); }
+
+h1 { font-size: clamp(2rem, 6vw, 3.4rem); line-height: 1.08; }
+h2 { font-size: clamp(1.5rem, 4vw, 2.2rem); line-height: 1.15; }
+h3 { font-size: clamp(1.2rem, 3vw, 1.5rem); line-height: 1.2; }
+
+.page-head { display: grid; gap: 1rem; max-width: 52rem; }
+.page-head__intro { font-size: 1.2rem; line-height: 1.55; }
+.crumbs { font: 700 1rem/1 var(--cond); text-transform: uppercase; letter-spacing: .06em; }
+.crumbs a { color: var(--navy); text-underline-offset: 4px; }
+
+.notice { margin: 0; padding: .9rem 1.1rem; border: 3px solid var(--navy); border-radius: 10px; box-shadow: 4px 4px 0 var(--navy); background: var(--paper); }
+.notice--gold { background: var(--gold); color: var(--navy); }
+.notice--warn { background: #fff3cc; box-shadow: 3px 3px 0 var(--navy); }
+.notice--sky { background: var(--sky); }
+
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 0; }
+.chip { display: inline-block; font: 700 .85rem/1 var(--cond); letter-spacing: .06em; text-transform: uppercase; padding: 4px 10px; border-radius: 99px; border: 2px solid var(--navy); background: var(--paper); color: var(--navy); }
+.chip--required { background: var(--navy); color: #fff; }
+.chip--optional { background: var(--sky); }
+.chip--ok { background: var(--gold); }
+.chip--unknown { background: var(--paper); }
+
+.badge { display: inline-flex; align-items: center; gap: 4px; font: 700 .8rem/1 var(--cond); letter-spacing: .06em; text-transform: uppercase; padding: 3px 8px; border-radius: 4px; vertical-align: middle; }
+.badge svg { width: 12px; height: 12px; }
+.badge--ok { background: #e7f4ea; color: #145a30; border: 1.5px solid #145a30; }
+.badge--warn { background: #fff3cc; color: #6b4a00; border: 1.5px solid #6b4a00; }
+
+.btn--small { min-height: 38px; font-size: 1rem; padding: .3rem .9rem; box-shadow: 3px 3px 0 var(--navy); }
+
+.card { background: var(--paper); border: 3px solid var(--navy); border-radius: 12px; box-shadow: var(--shadow); padding: clamp(16px, 3vw, 24px); }
+.card--sky { background: var(--sky); }
+.card--gold { background: var(--gold); color: var(--navy); }
+.grid { display: grid; gap: clamp(16px, 3vw, 28px); }
+.grid--2 { grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); }
+.grid--3 { grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); }
+
+/* проза: уроки, приватность, о проекте */
+.prose { max-width: 46rem; }
+.prose > * + * { margin-top: 1rem; }
+.prose h2 { margin-top: 2.2rem; }
+.prose h3 { margin-top: 1.6rem; }
+.prose ul, .prose ol { padding-left: 1.3rem; }
+.prose li + li { margin-top: .35rem; }
+.prose a { color: var(--red-dark); text-underline-offset: 3px; }
+.prose strong { color: var(--navy); }
+.prose a.btn { color: #fff; text-decoration: none; }
+.prose a.btn--ghost, .prose a.btn--gold { color: var(--navy); }
+.prose code, kbd { font-family: ui-monospace, Consolas, monospace; font-size: .92em; background: var(--sky); padding: 0 .3em; border-radius: 3px; }
+.prose table { width: 100%; border-collapse: collapse; background: var(--paper); border: 3px solid var(--navy); }
+.prose th, .prose td { padding: .6rem .8rem; border-bottom: 2px solid var(--sky); text-align: left; vertical-align: top; }
+.prose th { background: var(--navy); color: #fff; font: 700 1rem/1.2 var(--cond); text-transform: uppercase; letter-spacing: .06em; }
+.table-wrap { overflow-x: auto; }
+
+.term { background: linear-gradient(transparent 62%, rgba(242,183,5,.7) 62%); font-weight: 600; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .reveal { animation: rise .5s var(--ease-out) both; }
+  @keyframes rise { from { opacity: 0; transform: translateY(14px) rotate(.4deg); } }
+}

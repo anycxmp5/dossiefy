@@ -1,0 +1,67 @@
+{
+  "id": "princeton",
+  "name": "Princeton University",
+  "common_app_slug": "princeton-university",
+  "official_admissions_url": "https://admission.princeton.edu",
+  "fields": {
+    "deadlines": {
+      "value": [
+        { "round": "Single-Choice Early Action (non-binding)", "date": "November 1" },
+        { "round": "Regular Decision", "date": "January 1" }
+      ],
+      "cycle": "not stated",
+      "note_ru": "Single-Choice Early Action необязывающий: ответ нужно дать до 1 мая. Подавая SCEA, нельзя подаваться в ранние программы других частных вузов США. Цикл на странице дедлайнов не назван.",
+      "source_url": "https://admission.princeton.edu/apply/first-year-application-dates-deadlines",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "tests": {
+      "value": "Test-optional for 2026–27; SAT or ACT required from the 2027–28 cycle (fall 2028 entry)",
+      "cycle": "2026–27",
+      "note_ru": "Для поступающих осенью 2027 года тесты необязательны, и отсутствие балла не считается недостатком. Начиная с цикла 2027–28 (поступление осенью 2028) SAT или ACT снова станут обязательными.",
+      "source_url": "https://admission.princeton.edu/apply/standardized-testing",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "english": {
+      "value": "Required if English is not your native language and your school does not teach in English: TOEFL, IELTS Academic, Duolingo or PTE Academic",
+      "cycle": "not stated",
+      "note_ru": "Тест не нужен, если английский родной или вы провели минимум три года в средней школе с английским языком обучения.",
+      "source_url": "https://admission.princeton.edu/apply/international-students",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "essays": {
+      "value": "Princeton-specific questions (academic prompt up to 250 words, plus additional sections) and a graded written paper",
+      "cycle": "2026–27",
+      "note_ru": "Страница прямо называет цикл 2026–27. Помимо ответов нужна оценённая учителем письменная работа (graded written paper) на английском.",
+      "source_url": "https://admission.princeton.edu/apply/princeton-specific-questions",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "international": {
+      "value": "Transcript is read in the context of your education system; graded written paper must be in English",
+      "cycle": "not stated",
+      "note_ru": "Пересчитывать оценки в GPA не требуется, если ваша школа так не делает. Если выпускные экзамены входят в требования, школа присылает предполагаемые или полученные результаты.",
+      "source_url": "https://admission.princeton.edu/apply/international-students",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "aid": {
+      "value": "Need-blind admission; full need of admitted international students met the same as for US students; grants, not loans; no merit scholarships",
+      "cycle": "not stated",
+      "note_ru": "Помощь целиком зависит от нуждаемости: Princeton не даёт академических и спортивных стипендий за заслуги. Помощь выдаётся грантом, который не нужно возвращать.",
+      "source_url": "https://admission.princeton.edu/apply/international-students",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "aid_forms": {
+      "value": "Forms and aid deadlines are not stated on the pages checked",
+      "cycle": "not stated",
+      "note_ru": "Какие анкеты нужны для помощи, на проверенных страницах не указано. Откройте раздел Cost & Aid на сайте Princeton.",
+      "source_url": "https://admission.princeton.edu/cost-aid",
+      "verified_on": "2026-11-03",
+      "status": "needs_verification"
+    }
+  }
+}

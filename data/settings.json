@@ -1,0 +1,15 @@
+{
+  "brand": {
+    "name": "Dossiefy",
+    "name_ru": "Досифай",
+    "domain": "dossiefy.com",
+    "site_url": "https://dossiefy.com"
+  },
+  "indexable": false,
+  "telegram_url": "https://t.me/PLACEHOLDER_BOT",
+  "review_service": {
+    "price": null,
+    "turnaround": null,
+    "disclosure_text": "Эссе разбирается с помощью ИИ-инструментов, итоговый отчёт проверяется вручную перед отправкой"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "northwestern",
+  "name": "Northwestern University",
+  "common_app_slug": "northwestern-university",
+  "official_admissions_url": "https://admissions.northwestern.edu",
+  "fields": {
+    "deadlines": {
+      "value": [
+        { "round": "QuestBridge", "date": "October 1, 2026" },
+        { "round": "Early Decision (binding)", "date": "November 1, 2026" },
+        { "round": "Regular Decision", "date": "January 4, 2027" }
+      ],
+      "cycle": "2026–27",
+      "note_ru": "Даты указаны с годом. Срок подачи анкет на финансовую помощь: 1 декабря 2026 для Early Decision и 1 февраля 2027 для Regular Decision. Решения по ED приходят в декабре 2026, по RD в марте 2027.",
+      "source_url": "https://admissions.northwestern.edu/apply/application-deadlines.html",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "tests": {
+      "value": "Test-optional: SAT or ACT not required for first-year applicants",
+      "cycle": "2026–27",
+      "note_ru": "Баллы можно приложить по желанию, также можно отправить AP или IB. Баллы из октябрьских и ноябрьских тестов для ED можно указать самостоятельно до 30 ноября 2026, декабрьские для RD до 15 февраля 2027. Зачисленные студенты, подавшие баллы, присылают официальные.",
+      "source_url": "https://admissions.northwestern.edu/faqs/standardized-testing-policy/index.html",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "english": {
+      "value": "Required if your first language is not English or your secondary schooling was not in English: TOEFL iBT, IELTS (incl. Indicator) or Duolingo; no minimum score",
+      "cycle": "not stated",
+      "note_ru": "Минимального балла нет, но конкурентные абитуриенты показывают высокие результаты по всем частям. Баллы нельзя указывать самостоятельно: они отправляются официально из тестирующей организации. Superscore и TOEFL MyBest Scores не рассматриваются.",
+      "source_url": "https://admissions.northwestern.edu/faqs/international-applicants/index.html",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "essays": {
+      "value": "Writing supplement: one required answer (300 words or fewer) and one or two more from a choice (under 200 words each); the Common App personal essay is no longer required",
+      "cycle": "2026–27",
+      "note_ru": "Northwestern прямо пишет, что личное эссе Common App больше не требуется. Эссе, написанные для других вузов, можно использовать повторно, если они рассказывают нужную вам историю.",
+      "source_url": "https://admissions.northwestern.edu/apply/requirements.html",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "international": {
+      "value": "Certified English translations of foreign transcripts are required; interviews via InitialView are optional",
+      "cycle": "not stated",
+      "note_ru": "Можно воспользоваться любым сервисом перевода, в том числе в своей стране. Собеседование необязательно, его отсутствие не считается недостатком.",
+      "source_url": "https://admissions.northwestern.edu/faqs/international-applicants/index.html",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "aid": {
+      "value": "International candidates seeking aid are evaluated need-aware: the request for aid is considered by the admission committee and the process is more competitive",
+      "cycle": "not stated",
+      "note_ru": "Это значит, что просьба о помощи учитывается при решении о зачислении, а конкурс выше. Просить о помощи нужно сразу в основной заявке, поставив «yes» в поле о финансовой помощи.",
+      "source_url": "https://undergradaid.northwestern.edu/apply-for-aid/prospective-international-undocumented-students/index.html",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "aid_forms": {
+      "value": "CSS Profile (code 1565) plus parents' tax forms or an employer income letter; ISAFA if the Profile cannot be submitted",
+      "cycle": "not stated",
+      "note_ru": "Иностранным студентам фонд College Board не даёт освобождения от оплаты Profile. Если подать Profile из вашей страны нельзя или это создаёт серьёзные трудности семье, заполняется International Student Application for Financial Assistance (ISAFA).",
+      "source_url": "https://undergradaid.northwestern.edu/apply-for-aid/prospective-international-undocumented-students/index.html",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    }
+  }
+}

@@ -1,0 +1,907 @@
+{
+  "steps": [
+    {
+      "id": "profile",
+      "title": "Profile",
+      "why_ru": "Здесь вы указываете, кто вы: имя, как оно записано в паспорте, контакты, адрес, гражданство и языки. Настоящий поступающий вводит имя так, как оно написано в загранпаспорте: по нему вуз потом выдаёт документы и оформляет визу.",
+      "real_ru": "На настоящей подаче документы здесь не загружаются, но данные должны совпадать с паспортом. Расхождения в написании имени создают проблемы позже, при оформлении I-20 и визы.",
+      "mistakes_ru": [
+        "Писать имя «как удобнее» вместо написания из паспорта.",
+        "Указывать школьную почту, которая может перестать работать после выпуска.",
+        "Менять гражданство или страну проживания между заявками разных вузов."
+      ],
+      "sections": [
+        {
+          "title": "Personal information",
+          "fields": [
+            {
+              "id": "firstName",
+              "label": "Legal first name",
+              "type": "text",
+              "req": true,
+              "hint": "Как в паспорте, латиницей.",
+              "sample": "Alex"
+            },
+            {
+              "id": "middleName",
+              "label": "Middle name",
+              "type": "text",
+              "hint": "Если нет, оставьте пустым.",
+              "sample": ""
+            },
+            {
+              "id": "lastName",
+              "label": "Last / family name",
+              "type": "text",
+              "req": true,
+              "hint": "Как в паспорте.",
+              "sample": "Sample"
+            },
+            {
+              "id": "preferredName",
+              "label": "Preferred first name",
+              "type": "text",
+              "hint": "Необязательно: как вас называть в письмах.",
+              "sample": "Alex"
+            },
+            {
+              "id": "dob",
+              "label": "Date of birth",
+              "type": "date",
+              "req": true,
+              "hint": "Формат выбирается календарём. Дата должна совпадать с паспортом.",
+              "sample": "2009-04-12"
+            },
+            {
+              "id": "sex",
+              "label": "Sex",
+              "type": "select",
+              "req": true,
+              "options": [
+                "Female",
+                "Male",
+                "Another",
+                "Prefer not to answer"
+              ],
+              "hint": "Поле нужно для статистики вузов, ответ «Prefer not to answer» допустим.",
+              "sample": "Prefer not to answer"
+            }
+          ]
+        },
+        {
+          "title": "Contact details",
+          "fields": [
+            {
+              "id": "email",
+              "label": "Email address",
+              "type": "email",
+              "req": true,
+              "hint": "Выберите адрес, которым будете пользоваться после школы. Вузы пишут именно сюда.",
+              "sample": "alex.sample@example.com"
+            },
+            {
+              "id": "phone",
+              "label": "Phone number",
+              "type": "tel",
+              "hint": "С кодом страны, например +7…",
+              "sample": "+7 900 000 00 00"
+            }
+          ]
+        },
+        {
+          "title": "Address",
+          "fields": [
+            {
+              "id": "country",
+              "label": "Country of residence",
+              "type": "text",
+              "req": true,
+              "hint": "Страна, где вы сейчас живёте.",
+              "sample": "Kazakhstan"
+            },
+            {
+              "id": "street",
+              "label": "Street address",
+              "type": "text",
+              "req": true,
+              "hint": "Улица, дом, квартира.",
+              "sample": "1 Example Street, apt. 1"
+            },
+            {
+              "id": "city",
+              "label": "City",
+              "type": "text",
+              "req": true,
+              "sample": "Almaty"
+            },
+            {
+              "id": "region",
+              "label": "State / province",
+              "type": "text",
+              "sample": ""
+            },
+            {
+              "id": "postal",
+              "label": "Postal code",
+              "type": "text",
+              "sample": "050000"
+            }
+          ]
+        },
+        {
+          "title": "Citizenship and languages",
+          "fields": [
+            {
+              "id": "citizenship",
+              "label": "Country of citizenship",
+              "type": "text",
+              "req": true,
+              "hint": "По паспорту, с которым вы планируете въезжать в США (Brown, например, просит указывать именно это).",
+              "sample": "Kazakhstan"
+            },
+            {
+              "id": "needsVisa",
+              "label": "Will you need a student visa to study in the US?",
+              "type": "radio",
+              "req": true,
+              "options": [
+                "Yes",
+                "No",
+                "Not sure"
+              ],
+              "hint": "Для иностранцев обычно «Yes». Если вы гражданин США или постоянный житель, вы подаёте как внутренний абитуриент.",
+              "sample": "Yes"
+            },
+            {
+              "id": "nativeLang",
+              "label": "First language",
+              "type": "text",
+              "req": true,
+              "hint": "От этого зависит, нужен ли вам тест по английскому.",
+              "sample": "Russian"
+            },
+            {
+              "id": "englishInstr",
+              "label": "Years of secondary school taught in English",
+              "type": "number",
+              "min": 0,
+              "max": 8,
+              "req": true,
+              "hint": "Вузы часто освобождают от теста тех, кто учился на английском два–три последних года.",
+              "sample": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "family",
+      "title": "Family",
+      "why_ru": "Вуз хочет понять ваш контекст: с кем вы живёте, кто в вашей семье учился в колледже. Это не оценка семьи, а информация, которая помогает правильно прочитать вашу заявку.",
+      "real_ru": "На настоящей подаче документы не загружаются. Данные о профессии и образовании родителей нужны вузу, чтобы оценить ваши возможности в контексте. Отвечайте честно и коротко.",
+      "mistakes_ru": [
+        "Приукрашивать должности родителей: информация может сверяться с финансовыми анкетами.",
+        "Пропускать необязательные поля, которые на самом деле помогают вузу вас понять."
+      ],
+      "sections": [
+        {
+          "title": "Household",
+          "fields": [
+            {
+              "id": "marital",
+              "label": "Parents' marital status",
+              "type": "select",
+              "req": true,
+              "options": [
+                "Married",
+                "Divorced or separated",
+                "Widowed",
+                "Never married",
+                "Other"
+              ],
+              "hint": "От ответа зависит, сколько родителей заполняют финансовые анкеты (например, CSS Profile у разведённых родителей).",
+              "sample": "Married"
+            },
+            {
+              "id": "siblings",
+              "label": "Number of siblings",
+              "type": "number",
+              "min": 0,
+              "max": 20,
+              "req": true,
+              "sample": "1"
+            }
+          ]
+        },
+        {
+          "title": "Parent or guardian 1",
+          "fields": [
+            {
+              "id": "p1Rel",
+              "label": "Relationship to you",
+              "type": "select",
+              "req": true,
+              "options": [
+                "Mother",
+                "Father",
+                "Guardian",
+                "Other"
+              ],
+              "sample": "Mother"
+            },
+            {
+              "id": "p1Name",
+              "label": "Full name",
+              "type": "text",
+              "req": true,
+              "sample": "Sample Parent"
+            },
+            {
+              "id": "p1Living",
+              "label": "Living?",
+              "type": "radio",
+              "req": true,
+              "options": [
+                "Yes",
+                "No"
+              ],
+              "sample": "Yes"
+            },
+            {
+              "id": "p1Job",
+              "label": "Current occupation",
+              "type": "text",
+              "req": true,
+              "hint": "Коротко: «engineer», «teacher», «business owner».",
+              "sample": "Engineer"
+            },
+            {
+              "id": "p1Edu",
+              "label": "Highest level of education",
+              "type": "select",
+              "req": true,
+              "options": [
+                "Secondary school",
+                "Some college",
+                "Bachelor's degree",
+                "Graduate degree"
+              ],
+              "hint": "Если родители учились в вузе, это отмечается как «college».",
+              "sample": "Bachelor's degree"
+            }
+          ]
+        },
+        {
+          "title": "Parent or guardian 2 (optional)",
+          "fields": [
+            {
+              "id": "p2Rel",
+              "label": "Relationship to you",
+              "type": "select",
+              "options": [
+                "Mother",
+                "Father",
+                "Guardian",
+                "Other"
+              ],
+              "sample": "Father"
+            },
+            {
+              "id": "p2Name",
+              "label": "Full name",
+              "type": "text",
+              "sample": "Sample Parent Two"
+            },
+            {
+              "id": "p2Job",
+              "label": "Current occupation",
+              "type": "text",
+              "sample": "Teacher"
+            },
+            {
+              "id": "p2Edu",
+              "label": "Highest level of education",
+              "type": "select",
+              "options": [
+                "Secondary school",
+                "Some college",
+                "Bachelor's degree",
+                "Graduate degree"
+              ],
+              "sample": "Bachelor's degree"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "title": "Education",
+      "why_ru": "Раздел Education показывает вашу школу и контекст оценок: систему, в которой вы учитесь, и данные консультанта, который отправит документы. Иностранные школы вуз читает в контексте: ему не нужен пересчёт в американский GPA, если ваша школа так не делает.",
+      "real_ru": "На настоящей подаче сюда загружается транскрипт школы (официальная справка об оценках) и данные консультанта. Консультант отправляет School Report, рекомендации и позже промежуточные оценки. Переводы документов должны быть заверены или сделаны по правилам вуза.",
+      "mistakes_ru": [
+        "Пересчитывать оценки в американский GPA самостоятельно, если школа этого не делает.",
+        "Не предупредить консультанта о дедлайнах.",
+        "Указать неточные даты обучения: они сверяются с документами."
+      ],
+      "sections": [
+        {
+          "title": "Current or most recent school",
+          "fields": [
+            {
+              "id": "schoolName",
+              "label": "School name",
+              "type": "text",
+              "req": true,
+              "sample": "Example Lyceum No. 1"
+            },
+            {
+              "id": "schoolCountry",
+              "label": "School country",
+              "type": "text",
+              "req": true,
+              "sample": "Kazakhstan"
+            },
+            {
+              "id": "schoolCity",
+              "label": "School city",
+              "type": "text",
+              "req": true,
+              "sample": "Almaty"
+            },
+            {
+              "id": "gradYear",
+              "label": "Expected graduation year",
+              "type": "number",
+              "min": 2026,
+              "max": 2032,
+              "req": true,
+              "hint": "Год окончания школы.",
+              "sample": "2027"
+            },
+            {
+              "id": "gradingScale",
+              "label": "How does your school grade?",
+              "type": "textarea",
+              "rows": 3,
+              "req": true,
+              "hint": "Кратко опишите шкалу, например: «5 — отлично, 4 — хорошо, 3 — удовлетворительно». Это поможет вузу прочитать транскрипт.",
+              "sample": "5-point scale: 5 excellent, 4 good, 3 satisfactory."
+            },
+            {
+              "id": "classRank",
+              "label": "Class rank reporting",
+              "type": "select",
+              "req": true,
+              "options": [
+                "Exact rank",
+                "Decile",
+                "Quartile",
+                "We do not report rank"
+              ],
+              "hint": "Многие школы вне США не публикуют рейтинг: тогда выберите последний вариант.",
+              "sample": "We do not report rank"
+            }
+          ]
+        },
+        {
+          "title": "School counselor",
+          "fields": [
+            {
+              "id": "counselorName",
+              "label": "Counselor's full name",
+              "type": "text",
+              "req": true,
+              "hint": "Человек в школе, который отправит ваши документы.",
+              "sample": "Sample Counselor"
+            },
+            {
+              "id": "counselorEmail",
+              "label": "Counselor's email",
+              "type": "email",
+              "req": true,
+              "sample": "counselor@example.edu"
+            },
+            {
+              "id": "counselorTitle",
+              "label": "Counselor's title",
+              "type": "text",
+              "sample": "Deputy head of school"
+            }
+          ]
+        },
+        {
+          "title": "Future plans",
+          "fields": [
+            {
+              "id": "major",
+              "label": "Intended major (optional)",
+              "type": "text",
+              "hint": "Необязательно. Во многих вузах специальность можно выбрать позже.",
+              "sample": "Computer Science"
+            },
+            {
+              "id": "degree",
+              "label": "Highest degree you plan to earn",
+              "type": "select",
+              "options": [
+                "Bachelor's",
+                "Master's",
+                "Doctorate",
+                "Not sure"
+              ],
+              "sample": "Master's"
+            }
+          ]
+        },
+        {
+          "title": "Honors",
+          "repeat": {
+            "id": "honors",
+            "max": 5,
+            "itemLabel": "Honor",
+            "fields": [
+              {
+                "id": "title",
+                "label": "Honor title",
+                "type": "text",
+                "max": 100,
+                "hint": "До 100 символов.",
+                "sample": "Regional Math Olympiad, 2nd place"
+              },
+              {
+                "id": "grade",
+                "label": "Grade level",
+                "type": "select",
+                "options": [
+                  "9",
+                  "10",
+                  "11",
+                  "12"
+                ],
+                "sample": "10"
+              },
+              {
+                "id": "level",
+                "label": "Level of recognition",
+                "type": "select",
+                "options": [
+                  "School",
+                  "State / regional",
+                  "National",
+                  "International"
+                ],
+                "sample": "State / regional"
+              }
+            ],
+            "samples": [
+              {
+                "title": "Regional Math Olympiad, 2nd place",
+                "grade": "10",
+                "level": "State / regional"
+              },
+              {
+                "title": "School prize for academic achievement",
+                "grade": "11",
+                "level": "School"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "testing",
+      "title": "Testing",
+      "why_ru": "Здесь вы сообщаете результаты SAT/ACT (если они нужны вашим вузам) и английского языка. Баллы можно указать самостоятельно, а официальные результаты нужны вузам, как правило, только после зачисления.",
+      "real_ru": "На настоящей подаче результаты SAT и ACT отправляются через College Board и ACT по коду вуза, а результаты TOEFL, IELTS и Duolingo присылает тестирующая организация. Некоторые вузы (например, Northwestern) не принимают самостоятельно указанные баллы по английскому.",
+      "mistakes_ru": [
+        "Указывать результаты, которых ещё нет: можно отметить, что тест запланирован.",
+        "Не проверить, принимает ли вуз самостоятельно внесённые баллы по английскому.",
+        "Не отправить официальные результаты вовремя, когда вуз их требует."
+      ],
+      "sections": [
+        {
+          "title": "SAT / ACT",
+          "fields": [
+            {
+              "id": "reportScores",
+              "label": "Do you want to report SAT/ACT scores?",
+              "type": "radio",
+              "req": true,
+              "options": [
+                "Yes, I will report scores",
+                "No, I will apply test-optional where allowed"
+              ],
+              "hint": "В test-optional вузах (в каталоге: Duke, Northwestern, Amherst, Williams и др.) это ваше решение. В вузах с обязательными тестами выберите «Yes».",
+              "sample": "Yes, I will report scores"
+            },
+            {
+              "id": "sat",
+              "label": "SAT total score (400–1600)",
+              "type": "number",
+              "min": 400,
+              "max": 1600,
+              "hint": "Если не сдавали, оставьте пустым.",
+              "sample": "1480"
+            },
+            {
+              "id": "satDate",
+              "label": "SAT test date",
+              "type": "date",
+              "sample": "2026-03-14"
+            },
+            {
+              "id": "act",
+              "label": "ACT composite score (1–36)",
+              "type": "number",
+              "min": 1,
+              "max": 36,
+              "sample": ""
+            }
+          ]
+        },
+        {
+          "title": "English proficiency",
+          "fields": [
+            {
+              "id": "engTest",
+              "label": "English proficiency test",
+              "type": "select",
+              "req": true,
+              "options": [
+                "TOEFL iBT",
+                "IELTS Academic",
+                "Duolingo English Test",
+                "PTE Academic",
+                "Cambridge English",
+                "I am exempt / not required",
+                "I have not taken one yet"
+              ],
+              "hint": "Шкала TOEFL изменилась с января 2026 года. Проверяйте, как именно ваш вуз называет требуемый результат.",
+              "sample": "IELTS Academic"
+            },
+            {
+              "id": "engDate",
+              "label": "Test date",
+              "type": "date",
+              "sample": "2026-06-20"
+            },
+            {
+              "id": "engScore",
+              "label": "Score",
+              "type": "text",
+              "max": 20,
+              "hint": "Как указано в отчёте теста.",
+              "sample": "7.5"
+            }
+          ]
+        },
+        {
+          "title": "Other exams",
+          "fields": [
+            {
+              "id": "ap",
+              "label": "AP / IB / national exams taken or planned",
+              "type": "textarea",
+              "rows": 3,
+              "max": 300,
+              "hint": "Например: «IB Diploma (predicted 38 points)», «AP Calculus BC (planned May 2027)».",
+              "sample": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "activities",
+      "title": "Activities",
+      "why_ru": "Раздел Activities показывает, чем вы занимаетесь вне уроков. Вузу важно не количество кружков, а глубина: что вы делали, чего добились, сколько времени отдавали. Описание сильно ограничено по длине, поэтому пишите конкретно.",
+      "real_ru": "На настоящей подаче обычно можно указать до десяти активностей, и для каждой есть жёсткие лимиты символов. Документы не загружаются, но всё, что вы пишете, должно быть правдой: вуз может проверить.",
+      "mistakes_ru": [
+        "Писать «участвовал» вместо конкретного действия и результата.",
+        "Перечислять всё подряд вместо нескольких действительно важных занятий.",
+        "Не указывать семейные обязанности и работу: вузы их ценят."
+      ],
+      "sections": [
+        {
+          "title": "Your activities",
+          "repeat": {
+            "id": "activities",
+            "max": 5,
+            "min": 1,
+            "itemLabel": "Activity",
+            "fields": [
+              {
+                "id": "type",
+                "label": "Activity type",
+                "type": "select",
+                "req": true,
+                "options": [
+                  "Academic",
+                  "Art",
+                  "Athletics: Club",
+                  "Athletics: JV/Varsity",
+                  "Career-oriented",
+                  "Community service (Volunteer)",
+                  "Computer/Technology",
+                  "Cultural",
+                  "Debate/Speech",
+                  "Environmental",
+                  "Family responsibilities",
+                  "Journalism/Publication",
+                  "Music: Instrumental",
+                  "Research",
+                  "Robotics",
+                  "School spirit",
+                  "Science/Math",
+                  "Work (paid)",
+                  "Other club/activity"
+                ],
+                "sample": "Robotics"
+              },
+              {
+                "id": "position",
+                "label": "Position / leadership description",
+                "type": "text",
+                "max": 50,
+                "req": true,
+                "hint": "До 50 символов. Роль или должность.",
+                "sample": "Team captain, programming lead"
+              },
+              {
+                "id": "org",
+                "label": "Organization name",
+                "type": "text",
+                "max": 100,
+                "req": true,
+                "hint": "До 100 символов.",
+                "sample": "School robotics club"
+              },
+              {
+                "id": "desc",
+                "label": "Describe the activity and what you accomplished",
+                "type": "textarea",
+                "rows": 3,
+                "max": 150,
+                "req": true,
+                "hint": "До 150 символов. Что вы делали и чего добились, с конкретикой и цифрами.",
+                "sample": "Led 8 members; built a line-following robot; won regional round."
+              },
+              {
+                "id": "hours",
+                "label": "Hours per week",
+                "type": "number",
+                "min": 0,
+                "max": 168,
+                "req": true,
+                "sample": "6"
+              },
+              {
+                "id": "weeks",
+                "label": "Weeks per year",
+                "type": "number",
+                "min": 0,
+                "max": 52,
+                "req": true,
+                "sample": "36"
+              }
+            ],
+            "samples": [
+              {
+                "type": "Robotics",
+                "position": "Team captain, programming lead",
+                "org": "School robotics club",
+                "desc": "Led 8 members; built a line-following robot; won regional round.",
+                "hours": "6",
+                "weeks": "36"
+              },
+              {
+                "type": "Community service (Volunteer)",
+                "position": "Volunteer tutor",
+                "org": "Neighborhood learning center",
+                "desc": "Tutored younger students in math twice a week for two years.",
+                "hours": "3",
+                "weeks": "30"
+              },
+              {
+                "type": "Music: Instrumental",
+                "position": "Pianist",
+                "org": "Music school ensemble",
+                "desc": "Played in a school ensemble; performed at two city concerts.",
+                "hours": "4",
+                "weeks": "40"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "writing",
+      "title": "Writing",
+      "why_ru": "Здесь вы пишете личное эссе (Personal Statement). Выберите одну из семи тем Common App или тему на свой выбор и напишите историю, в которой слышен ваш голос. Диапазон длины, который называет Common App, — примерно 250–650 слов.",
+      "real_ru": "На настоящей подаче текст эссе вставляется прямо в поле. Один и тот же Personal Statement читают все вузы из вашего списка, а дополнительные эссе вузов (supplements) открываются отдельно, когда вы добавите вуз. Поле Additional information необязательно.",
+      "mistakes_ru": [
+        "Писать про вуз вместо того, чтобы писать про себя.",
+        "Перечислять достижения вместо одной истории.",
+        "Начинать с клише («с древних времён», «с детства мечтал изменить мир»).",
+        "Загрузить текст, который писал не ты."
+      ],
+      "sections": [
+        {
+          "title": "Personal essay",
+          "fields": [
+            {
+              "id": "prompt",
+              "label": "Choose a prompt",
+              "type": "select",
+              "req": true,
+              "optionsFrom": "prompts",
+              "hint": "Темы 2026–27 взяты с официальной страницы Common App. Любая тема подходит: выбирайте ту, про которую вам есть что рассказать.",
+              "sample": "7"
+            },
+            {
+              "id": "essay",
+              "label": "Personal essay",
+              "type": "textarea",
+              "rows": 14,
+              "req": true,
+              "words": [
+                250,
+                650
+              ],
+              "hint": "Ориентир 250–650 слов. Счётчик ниже считает слова. Начните со сцены, а не с общей мысли.",
+              "sample": "The first time I debugged a robot, it was two in the morning and the line-follower kept driving straight off the table. I laughed, then I did not. Over the next hour I learned that the sensor was fine and my assumption was wrong: I had trusted the lighting in our school lab, and the lab lights flickered. That small failure changed how I work. Before, I wanted a plan that could not fail. Now I look for the quiet assumption hiding inside every plan, and I ask the people around me to find it too. In our robotics club, I started a habit: before every build, each member writes down one thing they are sure about, and we test it first. Some answers were silly. One was important: we had never checked the battery under load. Our robot finished the regional round because of that test. I do not think the lesson is only about robots. At home, my mother says I interrupt dinner to check whether a story we all remember is really true. I do, and I am trying to do it more kindly. I want to study computer science because it rewards this habit and gives it a purpose. Programs fail in surprising ways, and the people I admire are the ones who are curious about the failure instead of embarrassed by it. I hope to bring that curiosity to a university where questions are welcome, and where a wrong assumption is the beginning of a better experiment. The table in our lab is still scratched where the robot fell. I have never asked anyone to repair it. It reminds me what a good mistake looks like: small, early, and shared with a team that is ready to learn from it. When I imagine my first year, I picture a late evening in a lab or a library, a problem that refuses to behave, and a few people leaning over it together. I know that feeling already. I would like to learn what happens when it grows."
+            }
+          ]
+        },
+        {
+          "title": "Additional information",
+          "fields": [
+            {
+              "id": "additional",
+              "label": "Additional information (optional)",
+              "type": "textarea",
+              "rows": 4,
+              "words": [
+                0,
+                300
+              ],
+              "hint": "Необязательно. Используйте, если нужно объяснить обстоятельства, которых нет в заявке. Common App сократил это поле до 300 слов начиная с цикла 2025–26.",
+              "sample": ""
+            }
+          ]
+        },
+        {
+          "title": "Example school supplement",
+          "fields": [
+            {
+              "id": "why",
+              "label": "Why this school? (example, up to 150 words)",
+              "type": "textarea",
+              "rows": 5,
+              "req": true,
+              "words": [
+                20,
+                150
+              ],
+              "hint": "Так выглядит типичный supplement: конкретные причины, основанные на сайте вуза. Реальные вопросы и лимиты смотрите в каталоге.",
+              "sample": "I am drawn to the school's undergraduate research culture. I read that first-year students can join a robotics lab, and I want to continue building the kind of systems my club began. I am also interested in the introductory course on algorithms because it connects proofs with code, which is how I like to learn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "courses",
+      "title": "Courses & Grades",
+      "why_ru": "Раздел Courses & Grades показывает предметы и оценки, которые вы уже получили. В настоящем Common App вы вносите их вручную, а школа присылает официальный транскрипт: вуз сверяет одно с другим.",
+      "real_ru": "На настоящей подаче сюда загружается или вносится вручную список курсов и оценок, а официальный транскрипт присылает школа. Данные должны совпадать с транскриптом, иначе вуз может запросить пояснения.",
+      "mistakes_ru": [
+        "Вносить оценки, которых нет в транскрипте.",
+        "Не указывать уровень курса (honors, AP, IB): он влияет на оценку сложности программы.",
+        "Забывать про текущий учебный год."
+      ],
+      "sections": [
+        {
+          "title": "Your courses",
+          "repeat": {
+            "id": "courses",
+            "max": 8,
+            "min": 3,
+            "itemLabel": "Course",
+            "fields": [
+              {
+                "id": "name",
+                "label": "Course title",
+                "type": "text",
+                "req": true,
+                "max": 60,
+                "sample": "Algebra and Analysis"
+              },
+              {
+                "id": "subject",
+                "label": "Subject area",
+                "type": "select",
+                "req": true,
+                "options": [
+                  "English",
+                  "Mathematics",
+                  "Science",
+                  "Social studies",
+                  "Foreign language",
+                  "Arts",
+                  "Computer science",
+                  "Other"
+                ],
+                "sample": "Mathematics"
+              },
+              {
+                "id": "level",
+                "label": "Level",
+                "type": "select",
+                "req": true,
+                "options": [
+                  "Standard",
+                  "Honors / advanced",
+                  "AP",
+                  "IB",
+                  "Other"
+                ],
+                "sample": "Honors / advanced"
+              },
+              {
+                "id": "grade",
+                "label": "Grade (as on your transcript)",
+                "type": "text",
+                "req": true,
+                "max": 10,
+                "hint": "Так, как написано в транскрипте: «5», «A», «92%».",
+                "sample": "5"
+              }
+            ],
+            "samples": [
+              {
+                "name": "Algebra and Analysis",
+                "subject": "Mathematics",
+                "level": "Honors / advanced",
+                "grade": "5"
+              },
+              {
+                "name": "Physics",
+                "subject": "Science",
+                "level": "Honors / advanced",
+                "grade": "5"
+              },
+              {
+                "name": "English Language and Literature",
+                "subject": "English",
+                "level": "Standard",
+                "grade": "5"
+              },
+              {
+                "name": "Informatics",
+                "subject": "Computer science",
+                "level": "Honors / advanced",
+                "grade": "5"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "review",
+      "title": "Review",
+      "why_ru": "Перед отправкой настоящая заявка проходит проверку: нужно просмотреть каждый раздел и подтвердить, что всё правда. После нажатия «Submit» изменить ничего нельзя, поэтому проверьте имена, даты и списки ещё раз.",
+      "real_ru": "На настоящей подаче вы подписываете подтверждение достоверности, оплачиваете сбор или подаёте запрос на освобождение и нажимаете Submit. В этом демо ничего не отправляется и не оплачивается: данные остаются только в вашем браузере.",
+      "mistakes_ru": [
+        "Отправлять заявку в последние минуты дедлайна: серверы перегружаются.",
+        "Не проверить, что каждый вуз получил свои supplements.",
+        "Забыть, что после отправки заявку нельзя изменить."
+      ],
+      "sections": []
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "harvard",
+  "name": "Harvard University",
+  "common_app_slug": "harvard-university",
+  "official_admissions_url": "https://college.harvard.edu/admissions",
+  "fields": {
+    "deadlines": {
+      "value": [
+        { "round": "Restrictive Early Action", "date": "November 1" },
+        { "round": "Regular Decision", "date": "January 1" }
+      ],
+      "cycle": "not stated",
+      "note_ru": "На странице указаны только число и месяц, цикл подачи не назван. Перед подачей сверьтесь с официальным сайтом.",
+      "source_url": "https://college.harvard.edu/admissions/apply/application-requirements",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "tests": {
+      "value": "SAT or ACT required",
+      "cycle": "not stated",
+      "note_ru": "Нужны результаты SAT или ACT. В исключительных случаях требование могут закрыть AP, IB, GCSE/A-Level или национальные выпускные экзамены. Результаты можно указать самостоятельно, но зачисленные студенты присылают официальные.",
+      "source_url": "https://college.harvard.edu/admissions/apply/application-requirements",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "english": {
+      "value": "English proficiency exam not required for first-year applicants",
+      "cycle": "not stated",
+      "note_ru": "По FAQ на странице для иностранных абитуриентов экзамен по английскому для first-year не обязателен. TOEFL, IELTS и Duolingo нельзя использовать вместо SAT/ACT, но результаты можно приложить.",
+      "source_url": "https://college.harvard.edu/admissions/apply/international-applicants",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "essays": {
+      "value": "Five Harvard-specific short answers, 150 words each, through Common App",
+      "cycle": "not stated",
+      "note_ru": "Пять обязательных коротких ответов по 150 слов в Common App. Дополнительно: школьный отчёт, промежуточный отчёт школы и две рекомендации учителей по разным предметам.",
+      "source_url": "https://college.harvard.edu/admissions/apply/application-requirements",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "international": {
+      "value": "Same application requirements as domestic applicants; self-made translations are not accepted",
+      "cycle": "not stated",
+      "note_ru": "Требования те же, что у американцев. Документы не нужно переводить самому: перевод может сделать, например, учитель английского, с указанием имени переводчика и его отношения к вам. К переводу всегда прикладывается копия оригинала.",
+      "source_url": "https://college.harvard.edu/admissions/apply/international-applicants",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "aid": {
+      "value": "All aid is need-based; same aid policies for all applicants regardless of citizenship",
+      "cycle": "not stated",
+      "note_ru": "Помощь только по финансовой потребности и по тем же правилам для всех, независимо от гражданства. Решение о зачислении принимается без учёта того, подавали ли вы на помощь. Термин need-blind на странице напрямую не использован.",
+      "source_url": "https://college.harvard.edu/admissions/apply/international-applicants",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "aid_forms": {
+      "value": "Forms and aid deadline are not stated on the pages checked",
+      "cycle": "not stated",
+      "note_ru": "Какие именно анкеты нужны (например, CSS Profile) и срок их подачи на проверенных страницах не указаны. Откройте страницу финансовой помощи Harvard.",
+      "source_url": "https://college.harvard.edu/financial-aid",
+      "verified_on": "2026-11-03",
+      "status": "needs_verification"
+    }
+  }
+}

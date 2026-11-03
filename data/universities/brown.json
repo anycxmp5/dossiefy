@@ -1,0 +1,67 @@
+{
+  "id": "brown",
+  "name": "Brown University",
+  "common_app_slug": "brown-university",
+  "official_admissions_url": "https://admission.brown.edu",
+  "fields": {
+    "deadlines": {
+      "value": [
+        { "round": "Early Decision (binding)", "date": "November 1" },
+        { "round": "Regular Decision", "date": "January 5" }
+      ],
+      "cycle": "not stated",
+      "note_ru": "Решение по Regular Decision приходит в начале апреля. Цикл на странице не назван.",
+      "source_url": "https://admission.brown.edu/first-year",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "tests": {
+      "value": "SAT or ACT required (since the 2024–25 cycle)",
+      "cycle": "2024–25 onward",
+      "note_ru": "Brown вернул обязательные SAT или ACT и считает superscore по любому из тестов или по обоим. Минимального балла нет. К Early Decision нужно сдать последний октябрьский тест, к Regular Decision последний декабрьский. SAT Essay и ACT Writing необязательны.",
+      "source_url": "https://admission.brown.edu/first-year/standardized-tests",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "english": {
+      "value": "Not stated on the pages checked",
+      "cycle": "not stated",
+      "note_ru": "Страницы, которые я проверил, не называют тесты и баллы по английскому. На странице для иностранных абитуриентов есть отдельный подраздел English Proficiency, откройте его.",
+      "source_url": "https://admission.brown.edu/international",
+      "verified_on": "2026-11-03",
+      "status": "needs_verification"
+    },
+    "essays": {
+      "value": "Four Brown essays: two of 150–250 words and two of 100–150 words",
+      "cycle": "2026–27",
+      "note_ru": "Страница прямо называет цикл 2026–27. Эссе про Open Curriculum, про ваше воспитание и вклад в сообщество, про класс, который вы бы преподавали, и про то, что приносит радость. Для программ PLME и Brown | RISD нужны дополнительные эссе.",
+      "source_url": "https://admission.brown.edu/apply/how-apply",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "international": {
+      "value": "No separate application for international applicants; indicate citizenship according to the passport you will enter the US with",
+      "cycle": "not stated",
+      "note_ru": "Отдельной анкеты нет. Гражданство нужно указать по паспорту, с которым вы планируете въезжать в США.",
+      "source_url": "https://admission.brown.edu/international",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "aid": {
+      "value": "Need-blind admission and 100% of demonstrated need met; no packaged loans (the page does not single out international applicants)",
+      "cycle": "not stated",
+      "note_ru": "Общая политика Brown: приём без учёта способности платить, покрытие 100% подтверждённой потребности, без кредитов в пакете помощи. Относится ли need-blind к иностранцам, страница отдельно не уточняет.",
+      "source_url": "https://admission.brown.edu/tuition-aid",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "aid_forms": {
+      "value": "Forms and deadlines for international aid are not stated on the pages checked",
+      "cycle": "not stated",
+      "note_ru": "Какие анкеты нужны и в какие сроки, на проверенных страницах не указано. См. раздел Financial Aid на странице International Applicants и сайт Office of Financial Aid.",
+      "source_url": "https://admission.brown.edu/international",
+      "verified_on": "2026-11-03",
+      "status": "needs_verification"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "rice",
+  "name": "Rice University",
+  "common_app_slug": "rice-university",
+  "official_admissions_url": "https://admission.rice.edu",
+  "fields": {
+    "deadlines": {
+      "value": [
+        { "round": "Early Decision I (binding)", "date": "November 1" },
+        { "round": "Early Decision II (binding)", "date": "January 4" },
+        { "round": "Regular Decision", "date": "January 4" }
+      ],
+      "cycle": "not stated",
+      "note_ru": "Решения по ED I приходят в середине декабря, по ED II в конце января, по Regular Decision до 1 апреля. Цикл на странице не назван.",
+      "source_url": "https://admission.rice.edu/apply/first-year-international-applicants",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "tests": {
+      "value": "The testing policy could not be read from the page automatically",
+      "cycle": "not stated",
+      "note_ru": "Раздел Standardized Testing на странице подгружается отдельным блоком, и прочитать его автоматически не удалось. Откройте страницу First-Year International Applicants на сайте Rice.",
+      "source_url": "https://admission.rice.edu/apply/first-year-international-applicants",
+      "verified_on": "2026-11-03",
+      "status": "needs_verification"
+    },
+    "english": {
+      "value": "Demonstration of English proficiency is required; TOEFL, IELTS, Cambridge C1 Advanced / C2 Proficiency and Duolingo are listed",
+      "cycle": "not stated",
+      "note_ru": "Страница включает «Demonstration of English proficiency» в список материалов для иностранцев и даёт ссылки на тесты. Минимальные баллы и исключения лежат в свёрнутом блоке, который автоматически прочитать не удалось.",
+      "source_url": "https://admission.rice.edu/apply/first-year-international-applicants",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "essays": {
+      "value": "Common App plus the Rice writing supplement: two 150-word answers and two 500-word prompts; the optional image \"The Box\"",
+      "cycle": "not stated",
+      "note_ru": "Короткие ответы: что привлекает вас в выбранных областях, и что в опыте Rice вам близко. Длинные по 500 слов: жизненный опыт для residential college system и взгляды, сформированные вашим бэкграундом. «The Box» — картинка, которая вас характеризует, она не оценивается.",
+      "source_url": "https://admission.rice.edu/apply/first-year-international-applicants",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "international": {
+      "value": "Official transcript in English or a certified English translation; International Student Financial Statement required",
+      "cycle": "not stated",
+      "note_ru": "Нужен официальный табель с оценками 9–11 классов и текущими предметами 12-го класса.",
+      "source_url": "https://admission.rice.edu/apply/first-year-international-applicants",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "aid": {
+      "value": "Financial statement, aid and scholarships for international applicants are described in a section that could not be read automatically",
+      "cycle": "not stated",
+      "note_ru": "Раздел Financial Statement, Aid & Scholarships загружается отдельным блоком. Откройте страницу и сайт financialaid.rice.edu.",
+      "source_url": "https://admission.rice.edu/apply/first-year-international-applicants",
+      "verified_on": "2026-11-03",
+      "status": "needs_verification"
+    },
+    "aid_forms": {
+      "value": "International Student Financial Statement is listed among the required materials; other forms are not stated",
+      "cycle": "not stated",
+      "note_ru": "Это единственная анкета, названная в списке материалов. Остальные формы смотрите на сайте Office of Financial Aid.",
+      "source_url": "https://admission.rice.edu/apply/first-year-international-applicants",
+      "verified_on": "2026-11-03",
+      "status": "needs_verification"
+    }
+  }
+}

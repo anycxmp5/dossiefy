@@ -1,0 +1,67 @@
+{
+  "id": "vanderbilt",
+  "name": "Vanderbilt University",
+  "common_app_slug": "vanderbilt-university",
+  "official_admissions_url": "https://admissions.vanderbilt.edu",
+  "fields": {
+    "deadlines": {
+      "value": [
+        { "round": "Early Decision I (binding)", "date": "November 1, 2026" },
+        { "round": "Next listed deadline for a completed application", "date": "January 1, 2027 (the page text does not say which plan this date belongs to)" }
+      ],
+      "cycle": "2026–27",
+      "note_ru": "Даты указаны с годом. Срок приоритетной подачи CSS Profile и FAFSA для первого плана: 1 ноября 2026; позже на странице идут 1 января и 1 февраля 2027. Срок для Regular Decision в читаемом тексте страницы однозначно не назван: сверьте его на сайте.",
+      "source_url": "https://admissions.vanderbilt.edu/apply/",
+      "verified_on": "2026-11-03",
+      "status": "needs_verification"
+    },
+    "tests": {
+      "value": "Test-optional for fall 2027 and 2028 entry; SAT or ACT required for fall 2029 entry and beyond",
+      "cycle": "2026–27",
+      "note_ru": "Для поступления осенью 2027 и 2028 года абитуриент сам отмечает в заявке, хочет ли он, чтобы его рассматривали с баллами SAT/ACT или без них, и это не влияет на рассмотрение. Политика действует и для иностранных абитуриентов.",
+      "source_url": "https://admissions.vanderbilt.edu/apply/testing-policies/",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "english": {
+      "value": "Proof of English proficiency is required for international students; accepted tests and scores are not stated on the page checked",
+      "cycle": "2026–27",
+      "note_ru": "Требование подтверждено политикой тестирования Vanderbilt. Какие тесты и какие баллы принимаются, смотрите на странице для иностранных абитуриентов.",
+      "source_url": "https://admissions.vanderbilt.edu/apply/testing-policies/",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "essays": {
+      "value": "Not stated on the pages checked",
+      "cycle": "not stated",
+      "note_ru": "Требования к эссе Vanderbilt на проверенных страницах не найдены. Откройте страницу Apply на сайте Vanderbilt.",
+      "source_url": "https://admissions.vanderbilt.edu/apply/",
+      "verified_on": "2026-11-03",
+      "status": "needs_verification"
+    },
+    "international": {
+      "value": "Test-optional policy also applies to international and homeschool students; Early Decision requires a signed agreement from you, a parent and your counselor",
+      "cycle": "2026–27",
+      "note_ru": "Early Decision I и II обязывающие: если вас приняли, вы должны сразу отозвать остальные заявки. Подписать соглашение должны вы, родитель или опекун и школьный консультант.",
+      "source_url": "https://admissions.vanderbilt.edu/apply/",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "aid": {
+      "value": "Policy for international applicants is not stated on the pages checked",
+      "cycle": "not stated",
+      "note_ru": "Правила финансовой помощи для иностранцев на проверенных страницах не найдены. Откройте сайт Office of Financial Aid.",
+      "source_url": "https://admissions.vanderbilt.edu/apply/",
+      "verified_on": "2026-11-03",
+      "status": "needs_verification"
+    },
+    "aid_forms": {
+      "value": "CSS Profile and FAFSA are listed with priority filing deadlines; which apply to international families is not stated",
+      "cycle": "2026–27",
+      "note_ru": "Приоритетные сроки на странице: 1 ноября 2026, 1 января и 1 февраля 2027 в зависимости от плана подачи. Нужен ли иностранной семье FAFSA, на странице не уточняется.",
+      "source_url": "https://admissions.vanderbilt.edu/apply/",
+      "verified_on": "2026-11-03",
+      "status": "needs_verification"
+    }
+  }
+}

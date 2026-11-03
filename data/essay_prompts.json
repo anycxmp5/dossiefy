@@ -1,0 +1,23 @@
+{
+  "cycle": "2026–2027",
+  "source_url": "https://www.commonapp.org/apply/essay-prompts/",
+  "verified_on": "2026-11-03",
+  "status": "verified",
+  "announcement_url": "https://www.commonapp.org/blog/announcing-2026-2027-common-app-essay-prompts/",
+  "prompts": [
+    { "n": 1, "text": "Some students have a background, identity, interest, or talent that is so meaningful they believe their application would be incomplete without it. If this sounds like you, then please share your story.", "hint_ru": "Подходит, если у вас есть история, без которой заявка «неполная»: семья, язык, увлечение, место. Главное — не перечислять, а рассказать одну историю." },
+    { "n": 2, "text": "The lessons we take from obstacles we encounter can be fundamental to later success. Recount a time when you faced a challenge, setback, or failure. How did it affect you, and what did you learn from the experience?", "hint_ru": "Ловушка: описать только проблему. Комиссия ждёт ваши действия и вывод, а не драму." },
+    { "n": 3, "text": "Reflect on a time when you questioned or challenged a belief or idea. What prompted your thinking? What was the outcome?", "hint_ru": "Хорошо работает конкретный спор или момент сомнения. Покажите, как менялось ваше мнение." },
+    { "n": 4, "text": "Reflect on something that someone has done for you that has made you happy or thankful in a surprising way. How has this gratitude affected or motivated you?", "hint_ru": "Тема не про героя-благодетеля, а про вас: что вы стали делать иначе после этого поступка." },
+    { "n": 5, "text": "Discuss an accomplishment, event, or realization that sparked a period of personal growth and a new understanding of yourself or others.", "hint_ru": "Не обязательно «победа». Подойдёт момент осознания. Покажите, до и после." },
+    { "n": 6, "text": "Describe a topic, idea, or concept you find so engaging that it makes you lose all track of time. Why does it captivate you? What or who do you turn to when you want to learn more?", "hint_ru": "Сильный выбор для тех, кто любит предмет по-настоящему. Конкретные детали увлечения важнее громких слов." },
+    { "n": 7, "text": "Share an essay on any topic of your choice. It can be one you've already written, one that responds to a different prompt, or one of your own design.", "hint_ru": "Свободная тема. Это не значит «без структуры»: нужна та же сцена, детали и рефлексия." }
+  ],
+  "length": {
+    "value": "approx. 250–650 words (1,250–3,250 characters)",
+    "note_ru": "Такой диапазон Common App указывает в своём справочном материале для transfer-заявок. Для first-year проверьте счётчик в самом поле эссе в приложении: он показывает актуальный предел.",
+    "source_url": "https://membersupport.commonapp.org/membersupport/s/transfer-question-bank",
+    "verified_on": "2026-11-03",
+    "status": "verified"
+  }
+}

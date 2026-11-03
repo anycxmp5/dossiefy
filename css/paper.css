@@ -1,0 +1,14 @@
+/* бумажные объекты: лист, штамп */
+.sheet {
+  position: absolute; inset: 3% 4%;
+  background: var(--paper); color: var(--ink);
+  border: 3px solid var(--navy); border-radius: 8px; box-shadow: 4px 4px 0 var(--navy);
+}
+
+/* штамп: статичный SVG с заранее нарисованным неровным краем (генерируется в tools/build.mjs),
+   без SVG-фильтров, поэтому при анимации браузер ничего не пересчитывает */
+.stamp { position: absolute; right: 5%; bottom: 6%; width: 190px; transform-origin: 50% 50%; pointer-events: none; }
+.stamp__svg { display: block; width: 100%; height: auto; overflow: visible; }
+.stamp__main, .stamp__sub { font-family: var(--cond); font-weight: 700; fill: var(--red); }
+.stamp__main { font-size: 44px; letter-spacing: 9px; }
+.stamp__sub { font-size: 17px; letter-spacing: 2.5px; }

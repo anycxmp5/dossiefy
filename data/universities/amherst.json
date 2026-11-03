@@ -1,0 +1,67 @@
+{
+  "id": "amherst",
+  "name": "Amherst College",
+  "common_app_slug": "amherst-college",
+  "official_admissions_url": "https://www.amherst.edu/admission",
+  "fields": {
+    "deadlines": {
+      "value": [
+        { "round": "Early Decision (binding)", "date": "November 9, 2026" },
+        { "round": "Regular Decision", "date": "January 5, 2027" }
+      ],
+      "cycle": "2026–27",
+      "note_ru": "Страница называет сроки «для поступления в осень 2027». Срок подачи анкет на помощь: 13 ноября 2026 для ED и 15 января 2027 для RD. Ответ по RD нужно дать до 1 мая 2027.",
+      "source_url": "https://www.amherst.edu/admission/apply/firstyear/calendar_deadlines",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "tests": {
+      "value": "Test-optional: SAT or ACT optional for first-year and transfer applicants, domestic and international",
+      "cycle": "not stated",
+      "note_ru": "Баллы можно приложить самостоятельно или официальные. Раздел ACT Science тоже необязателен. SAT Subject Tests не рассматриваются.",
+      "source_url": "https://www.amherst.edu/admission/apply/firstyear/testing",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "english": {
+      "value": "Required for non-native speakers unless waived: TOEFL iBT (incl. Home Edition), IELTS Academic or Duolingo",
+      "cycle": "not stated",
+      "note_ru": "Освобождение получают те, кто последние два года средней школы учился на английском как основном языке обучения, и носители языка. Amherst не даёт условного зачисления и не преподаёт английский как второй язык.",
+      "source_url": "https://www.amherst.edu/admission/apply/international",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "essays": {
+      "value": "Common App (or Coalition with Scoir, or QuestBridge) plus the Amherst College Writing Supplement",
+      "cycle": "2026–27",
+      "note_ru": "Варианты Writing Supplement описаны на сайте колледжа. Для творческих и научных проектов есть необязательные дополнения (arts supplement, описание исследования).",
+      "source_url": "https://www.amherst.edu/admission/apply/firstyear",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "international": {
+      "value": "The only additional requirement for international applicants is demonstration of English proficiency",
+      "cycle": "not stated",
+      "note_ru": "Отдельной анкеты для иностранцев нет. Первый язык не английский — нужен тест, если не выполняются условия освобождения.",
+      "source_url": "https://www.amherst.edu/admission/apply/international",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "aid": {
+      "value": "Need-blind for all students, domestic and international; meets 100% of calculated need for admitted international students who apply for aid",
+      "cycle": "not stated",
+      "note_ru": "Иностранные студенты получают помощь по тем же правилам нуждаемости, что и американские.",
+      "source_url": "https://www.amherst.edu/admission/apply/international",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "aid_forms": {
+      "value": "CSS Profile is used to determine eligibility for institutional aid; check the international aid pages for the full set of forms",
+      "cycle": "not stated",
+      "note_ru": "На странице помощи CSS Profile назван формой для оценки права на институциональную помощь. Полный набор документов для иностранцев смотрите на страницах Office of Financial Aid.",
+      "source_url": "https://www.amherst.edu/admission/financial_aid",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    }
+  }
+}

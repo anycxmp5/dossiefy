@@ -1,0 +1,113 @@
+{
+  "note_ru": "Эссе из этого списка опубликовали сами вузы на своих открытых страницах. Мы не копируем тексты и не пересказываем их целиком: даём ссылку и свой разбор. Читайте оригинал на сайте вуза. Не используйте чужие идеи и формулировки в своём эссе.",
+  "examples": [
+    {
+      "id": "jhu-connection",
+      "title": "The Secret Ingredient is Connection",
+      "university_or_author": "Johns Hopkins University — published essay (Class of 2030)",
+      "url": "https://apply.jhu.edu/hopkins-insider/the-secret-ingredient-is-connection/",
+      "source_index_url": "https://apply.jhu.edu/college-planning-guide/essays-that-worked/",
+      "length_words": "около 550–600",
+      "why_it_works": "Эссе открывается маленькой сценой в школьной столовой и сразу показывает характер автора: человека, которого знают как того, кто печёт. Из бытовой детали вырастает идея: выпечка нужна, чтобы сближать людей.",
+      "structure_notes": "Сцена-крючок → как автор относится к кухне (как инженер и исследователь, включая неудачи) → расширение: кружки, адаптация рецептов под друзей, знакомство с чужими традициями через еду → возвращение к началу и короткая итоговая мысль. Много конкретики: названия блюд, неудачные попытки, измерения.",
+      "takeaway_ru": "Обычное увлечение превращается в историю, когда вы показываете, что оно делает с другими людьми.",
+      "link_checked_on": "2026-11-03", "link_status": "ok"
+    },
+    {
+      "id": "jhu-roots",
+      "title": "Developing Roots",
+      "university_or_author": "Johns Hopkins University — published essay (Class of 2030)",
+      "url": "https://apply.jhu.edu/hopkins-insider/developing-roots/",
+      "source_index_url": "https://apply.jhu.edu/college-planning-guide/essays-that-worked/",
+      "length_words": "около 490",
+      "why_it_works": "Одна метафора, деревья, проходит через всё эссе и помогает говорить о сложном: о самостоятельности, поддержке друзей и неуверенности. Начало детское и конкретное (камни во дворе, мелкие насекомые), поэтому метафора не кажется придуманной.",
+      "structure_notes": "Воспоминание → мечта «стать большим деревом» → сравнение себя в старших классах с деревом с неглубокими корнями → риски одиночества и сила общей корневой системы → уверенность, которую подтачивает сомнение → возвращение к исходному образу.",
+      "takeaway_ru": "Метафора работает, если она вырастает из реальной сцены и в конце возвращается к ней.",
+      "link_checked_on": "2026-11-03", "link_status": "ok"
+    },
+    {
+      "id": "jhu-two-sides",
+      "title": "The Two Sides of America",
+      "university_or_author": "Johns Hopkins University — published essay (Class of 2030)",
+      "url": "https://apply.jhu.edu/hopkins-insider/the-two-sides-of-america/",
+      "source_index_url": "https://apply.jhu.edu/college-planning-guide/essays-that-worked/",
+      "length_words": "около 600",
+      "why_it_works": "Автор описывает лето на семейной ферме через рабочие задачи, которые взрослеют вместе с ним: от мелких поручений к управлению техникой и работе со скотом. Контраст двух миров, города и деревни, показан в предметах, а не провозглашён.",
+      "structure_notes": "Зарисовка места → ранний труд и ощущение, что работе нет конца → растущая ответственность → сравнение городской и сельской жизни и мысль о том, что стране нужны обе стороны.",
+      "takeaway_ru": "Развитие показывайте через изменение задач и ответственности, а не через слова «я стал взрослее».",
+      "link_checked_on": "2026-11-03", "link_status": "ok"
+    },
+    {
+      "id": "jhu-closet",
+      "title": "Clean Closet",
+      "university_or_author": "Johns Hopkins University — published essay (Class of 2030)",
+      "url": "https://apply.jhu.edu/hopkins-insider/clean-closet/",
+      "source_index_url": "https://apply.jhu.edu/college-planning-guide/essays-that-worked/",
+      "length_words": "около 800 (длиннее ориентира)",
+      "why_it_works": "Бытовая задача, которую автор откладывает, становится рамкой для рассказа о взрослении. Каждый предмет в шкафу вызывает конкретное воспоминание, поэтому рефлексия подкреплена деталями.",
+      "structure_notes": "Задача из списка дел → шкаф как капсула времени → разбор вещей по историям → решение и его смысл «освободить место» → как новое отношение изменило привычки автора → возвращение к исходной шутке про уборку.",
+      "takeaway_ru": "Рамка из повседневного дела помогает связать много воспоминаний в одну мысль. Обратите внимание на длину: советуйтесь с лимитом вашего Common App.",
+      "link_checked_on": "2026-11-03", "link_status": "ok"
+    },
+    {
+      "id": "jhu-ship",
+      "title": "In the Belly of the Ship",
+      "university_or_author": "Johns Hopkins University — published essay (Class of 2030)",
+      "url": "https://apply.jhu.edu/hopkins-insider/in-the-belly-of-the-ship/",
+      "source_index_url": "https://apply.jhu.edu/college-planning-guide/essays-that-worked/",
+      "length_words": "около 700–750",
+      "why_it_works": "Эссе начинается с неудобной сцены на грузовом судне и честно признаёт первую неудачу. Сила в том, что автор возвращается и пробует снова, а изменение показано действиями: расспросы, исследование, обращение с просьбой к ведомству.",
+      "structure_notes": "Сцена посреди действия → предыстория и характер автора → первый рейс, который не получился → второй рейс с новым подходом → конкретный результат и вывод про маленькие шаги и общность.",
+      "takeaway_ru": "Неудача — хороший материал, если вы показываете, что сделали после неё.",
+      "link_checked_on": "2026-11-03", "link_status": "ok"
+    },
+    {
+      "id": "cc-outsider",
+      "title": "Being an outsider doesn’t mean not belonging",
+      "university_or_author": "Connecticut College — published essay by Riley Anderson ’25",
+      "url": "https://www.conncoll.edu/admission/apply/essays-that-worked/riley-anderson-25/",
+      "source_index_url": "https://www.conncoll.edu/admission/apply/essays-that-worked/",
+      "length_words": "около 650–700",
+      "why_it_works": "Начало с самоироничной сцены сразу показывает голос автора. Дальше тема «я единственная девочка в команде» раскрывается через конкретные ситуации, а не заявления. Консультанты отмечают, что автор держится одной линии повествования.",
+      "structure_notes": "Юмористическая сцена → корни увлечения и неудача при отборе → первое соревнование и чувство принадлежности → преодоление препятствий (работа ради доступа к полю) → возвращение к началу с мыслью о том, что игра останется на всю жизнь.",
+      "takeaway_ru": "Юмор допустим, если он помогает показать, кто вы. Одна линия повествования сильнее трёх разрозненных тем.",
+      "link_checked_on": "2026-11-03", "link_status": "ok"
+    },
+    {
+      "id": "cc-peaks",
+      "title": "Essay by Edie Banovic ’25",
+      "university_or_author": "Connecticut College — published essay by Edie Banovic ’25",
+      "url": "https://www.conncoll.edu/admission/apply/essays-that-worked/edie-banovic-25/",
+      "source_index_url": "https://www.conncoll.edu/admission/apply/essays-that-worked/",
+      "length_words": "около 600",
+      "why_it_works": "Эссе начинается с вопроса и точной цифры (сколько раз автор вставал в ранний час), что сразу создаёт напряжение. Целеустремлённость не декларируется, а видна в действиях, как и отмечают консультанты.",
+      "structure_notes": "Вопрос-крючок → цель, поставленная в детстве → семейные привычки как источник приключений → переломный разговор, который открыл интерес к полевой работе → финальный подъём и смена отношения к ранним подъёмам.",
+      "takeaway_ru": "Точная цифра в первой строке работает лучше общего заявления об упорстве.",
+      "link_checked_on": "2026-11-03", "link_status": "ok"
+    },
+    {
+      "id": "cc-hair",
+      "title": "Considering a physical feature and its role in your identity",
+      "university_or_author": "Connecticut College — published essay by Nikeya Tankard ’28",
+      "url": "https://www.conncoll.edu/admission/apply/essays-that-worked/nikeya-tankard-28/",
+      "source_index_url": "https://www.conncoll.edu/admission/apply/essays-that-worked/",
+      "length_words": "около 575",
+      "why_it_works": "Тема внешности, о которой легко написать банально, раскрыта через живую утреннюю сцену и конкретные связи с отцом и матерью. В конце автор поднимается от частного к общему: свобода выбирать причёску отражает свободу выбирать, кем быть.",
+      "structure_notes": "Сцена-метафора («поле боя» у раковины) → два варианта волос и связанные с ними воспоминания → напряжение между ожиданиями других и собой → вывод о многообразии интересов → возвращение к образу из начала.",
+      "takeaway_ru": "Личная тема становится сильной, когда от детали вы переходите к тому, что она говорит о вашем характере.",
+      "link_checked_on": "2026-11-03", "link_status": "ok"
+    },
+    {
+      "id": "cc-women",
+      "title": "Telling us about yourself through your relationships with others",
+      "university_or_author": "Connecticut College — published essay by Phoebe Hughes ’28",
+      "url": "https://www.conncoll.edu/admission/apply/essays-that-worked/phoebe-hughes-28/",
+      "source_index_url": "https://www.conncoll.edu/admission/apply/essays-that-worked/",
+      "length_words": "около 575",
+      "why_it_works": "Автор описывает себя через других людей, но остаётся в центре: каждая история заканчивается чертой, которую автор взял у этого человека. Консультанты отмечают, что при этом растёт именно автор.",
+      "structure_notes": "Смелое утверждение в начале → четыре связанные истории о разных людях → к каждой привязана одна черта характера → сводящий вывод.",
+      "takeaway_ru": "Рассказывая о других, всегда возвращайтесь к себе: что вы поняли и что стали делать иначе.",
+      "link_checked_on": "2026-11-03", "link_status": "ok"
+    }
+  ]
+}

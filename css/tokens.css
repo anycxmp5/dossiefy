@@ -1,0 +1,49 @@
+/* Шрифты. Alfa Slab One и Barlow Condensed не содержат кириллицу, поэтому для русского текста
+   подставлены ближайшие по характеру шрифты с кириллицей (Bitter Black, Roboto Condensed Bold).
+   Латиница и цифры остаются на оригинальных шрифтах. Семейство одно — браузер выбирает файл по unicode-range. */
+@font-face { font-family: "Display"; font-weight: 400; font-display: swap;
+  src: url("../fonts/alfa-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: "Display"; font-weight: 400; font-display: swap;
+  src: url("../fonts/bitter-cyrillic-900.woff2") format("woff2");
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+
+@font-face { font-family: "Cond"; font-weight: 600 700; font-display: swap;
+  src: url("../fonts/barlow-cond-latin-700.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: "Cond"; font-weight: 600 700; font-display: swap;
+  src: url("../fonts/roboto-cond-cyrillic-700.woff2") format("woff2");
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+
+@font-face { font-family: "Source Sans 3"; font-weight: 200 900; font-display: swap;
+  src: url("../fonts/sourcesans-cyrillic.woff2") format("woff2");
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+@font-face { font-family: "Source Sans 3"; font-weight: 200 900; font-display: swap;
+  src: url("../fonts/sourcesans-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+:root {
+  /* Дизайн-система семейства «bootcamp» */
+  --navy: #0b2455;
+  --navy-2: #163775;
+  --red: #c8102e;
+  --red-dark: #9b0b22;
+  --cream: #fbf4e4;
+  --cream-deep: #f1e2bd;
+  --paper: #fffdf7;
+  --gold: #f2b705;
+  --sky: #dce6f5;
+  --sky-deep: #bfd0ea;
+  --ink: #14213d;
+  --muted: #5b6785;
+  --ok: #1f8f4e; /* только крошечные отметки «верно» в проверках */
+
+  --shadow: 5px 5px 0 var(--navy);
+  --display: "Display", "Rockwell", "Georgia", serif;
+  --cond: "Cond", "Arial Narrow", "Impact", sans-serif;
+  --body: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+
+  --hh: 71px; /* высота липкой шапки с лентой: нужна закреплённым сценам */
+  --gutter: clamp(16px, 4vw, 40px);
+  --ease-out: cubic-bezier(.22, .8, .24, 1);
+}

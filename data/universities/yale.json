@@ -1,0 +1,68 @@
+{
+  "id": "yale",
+  "name": "Yale University",
+  "common_app_slug": "yale-university",
+  "official_admissions_url": "https://admissions.yale.edu",
+  "fields": {
+    "deadlines": {
+      "value": [
+        { "round": "Single-Choice Early Action", "date": "November 1" },
+        { "round": "QuestBridge National College Match", "date": "November 1" },
+        { "round": "Regular Decision", "date": "January 2" }
+      ],
+      "cycle": "not stated",
+      "note_ru": "Early Decision у Yale на странице не указан. Цикл подачи на странице дедлайнов не назван.",
+      "source_url": "https://admissions.yale.edu/apply",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "tests": {
+      "value": "SAT or ACT required",
+      "cycle": "not stated",
+      "note_ru": "Все first-year и transfer абитуриенты присылают результаты SAT или ACT, предпочтения между ними нет. Разделы ACT Science и Writing необязательны, разрешён superscore.",
+      "source_url": "https://admissions.yale.edu/standardized-testing",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "english": {
+      "value": "Required if you have not had at least two years of English-medium secondary education: TOEFL, IELTS, Cambridge English Qualifications or Duolingo",
+      "cycle": "not stated",
+      "note_ru": "Нужен результат одного из тестов, если вы не учились минимум два года в средней школе, где преподавание шло на английском.",
+      "source_url": "https://admissions.yale.edu/international",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "essays": {
+      "value": "Yale-specific short answers: academic areas (up to three) and a 200-word response; plus short takes of up to 200 characters",
+      "cycle": "2026–27",
+      "note_ru": "Страница прямо указывает цикл 2026–2027. Дополнительные короткие ответы заполняются в разделе My Colleges в Common App.",
+      "source_url": "https://admissions.yale.edu/essay-topics",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "international": {
+      "value": "Same application and requirements as all applicants; documents in English, certified translation required, self-made translations not accepted",
+      "cycle": "not stated",
+      "note_ru": "Все документы должны быть на английском. Если оригинал на другом языке, нужен заверенный перевод; переводить самому нельзя.",
+      "source_url": "https://admissions.yale.edu/international",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "aid": {
+      "value": "Need-blind admissions; meets 100% of demonstrated need; international students eligible for the same need-based aid",
+      "cycle": "not stated",
+      "note_ru": "Способность семьи платить не учитывается при рассмотрении заявки, а помощь покрывает 100% подтверждённой потребности. Иностранные студенты получают такую же помощь, как американские.",
+      "source_url": "https://admissions.yale.edu/international",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "aid_forms": {
+      "value": "CSS Profile is listed on the affordability page; which forms apply to international families is not confirmed",
+      "cycle": "not stated",
+      "note_ru": "На странице affordability перечислены FAFSA, CSS Profile и налоговые декларации. Какие формы нужны именно иностранной семье, здесь не уточняется: смотрите страницу Yale про помощь для иностранных студентов.",
+      "source_url": "https://admissions.yale.edu/affordability",
+      "verified_on": "2026-11-03",
+      "status": "needs_verification"
+    }
+  }
+}

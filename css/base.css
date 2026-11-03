@@ -1,0 +1,118 @@
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; scroll-padding-top: var(--hh); }
+body {
+  margin: 0;
+  font: 400 1.0625rem/1.55 var(--body);
+  color: var(--ink);
+  background-color: var(--cream);
+  background-image: radial-gradient(rgba(11,36,85,.07) 1.2px, transparent 1.2px);
+  background-size: 22px 22px;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: clip;
+}
+img, svg { display: block; max-width: 100%; }
+a { color: var(--red-dark); }
+h1, h2, h3, p { margin: 0; }
+h1, h2, h3 { font-family: var(--display); font-weight: 400; line-height: 1.15; color: var(--navy); }
+
+.label {
+  font-family: var(--cond); font-weight: 700; text-transform: uppercase; letter-spacing: .08em; font-size: .9rem; line-height: 1.2;
+}
+
+.sr-only {
+  position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+.skip { position: fixed; left: 12px; top: -80px; z-index: 100; background: var(--gold); color: var(--navy); border: 3px solid var(--navy); padding: .5rem 1rem; font-family: var(--cond); font-weight: 700; text-transform: uppercase; }
+.skip:focus { top: 12px; }
+
+/* Фокус: красный на светлом, золотой на navy (AA для индикатора фокуса) */
+:focus-visible { outline: 3px solid var(--red); outline-offset: 3px; }
+.topbar :focus-visible, .band-navy :focus-visible { outline-color: var(--gold); }
+
+/* зерно бумаги: маленькая растровая плитка 64×64 (~8 КБ), только на устройствах с мышью и широким экраном.
+   На телефонах слой отключён: полноэкранный fixed-слой поверх всей страницы лишняя нагрузка при скролле */
+body::after {
+  content: ""; position: fixed; inset: 0; z-index: 90; pointer-events: none;
+  background: url("../img/own/grain.png") 0 0 / 64px 64px; opacity: .28;
+}
+@media (max-width: 899px), (hover: none) { body::after { display: none; } }
+
+/* Переход между страницами: «лист перекладывается». View Transitions API, в остальных браузерах обычные ссылки */
+@view-transition { navigation: auto; }
+::view-transition-old(root) { animation: page-out .4s var(--ease-out) both; }
+::view-transition-new(root) { animation: page-in .55s var(--ease-out) both; }
+@keyframes page-out { to { opacity: 0; transform: translateY(-3%) rotate(-.8deg); } }
+@keyframes page-in { from { opacity: 0; transform: translateY(5%) rotate(.8deg); } }
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-old(root), ::view-transition-new(root) { animation: none; }
+}
+
+/* ---------- Шапка ---------- */
+.site-header { position: sticky; top: 0; z-index: 60; }
+.topbar {
+  height: 58px; background: var(--navy); color: #fff;
+  display: flex; align-items: center; gap: clamp(12px, 3vw, 24px); padding: 0 var(--gutter);
+}
+.brand { display: flex; align-items: center; gap: 9px; text-decoration: none; color: #fff; flex: none; }
+.brand__star { width: 24px; height: 24px; fill: var(--gold); }
+.brand__name { font-family: var(--display); font-size: 1.35rem; letter-spacing: .02em; }
+.brand__name em { font-style: normal; color: var(--gold); }
+.nav { display: flex; gap: 2px; margin-left: auto; }
+.menu-btn { display: none; margin-left: auto; width: 44px; height: 44px; align-items: center; justify-content: center; cursor: pointer; border-radius: 6px; }
+.menu-btn i, .menu-btn i::before, .menu-btn i::after { display: block; width: 24px; height: 3px; background: #fff; border-radius: 2px; content: ""; position: relative; }
+.menu-btn i::before { position: absolute; top: -8px; left: 0; }
+.menu-btn i::after { position: absolute; top: 8px; left: 0; }
+.menu-check:focus-visible + .menu-btn { outline: 3px solid var(--gold); outline-offset: 2px; }
+@media (max-width: 860px) {
+  .menu-btn { display: flex; }
+  .nav {
+    display: none; position: absolute; left: 0; right: 0; top: 58px; flex-direction: column; gap: 0; margin: 0;
+    background: var(--navy); border-top: 1px solid var(--navy-2); padding: 6px var(--gutter) 14px; box-shadow: 0 6px 0 var(--navy);
+  }
+  .menu-check:checked ~ .nav { display: flex; }
+  .nav a { padding: 14px 8px; font-size: 1.25rem; border-bottom: 1px solid var(--navy-2); border-radius: 0; }
+}
+.nav a {
+  color: #fff; text-decoration: none; white-space: nowrap;
+  font: 700 1.05rem/1 var(--cond); text-transform: uppercase; letter-spacing: .06em;
+  padding: 8px clamp(8px, 2vw, 14px); border-radius: 4px;
+}
+.nav a:hover { background: var(--navy-2); }
+.nav a[aria-current="true"] { background: var(--red); }
+.stripes { height: 10px; background: repeating-linear-gradient(90deg, var(--red) 0 40px, #fff 40px 80px); border-bottom: 3px solid var(--navy); }
+
+
+/* ---------- Подвал ---------- */
+.site-footer { background: var(--paper); border-top: 3px solid var(--navy); color: var(--muted); padding: 2.2rem var(--gutter) max(2rem, env(safe-area-inset-bottom)); display: grid; gap: .6rem; }
+.site-footer__top { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: .6rem 2rem; }
+.site-footer__links { display: flex; flex-wrap: wrap; gap: .4rem 1.4rem; }
+.site-footer__links a { font: 700 1.05rem/1.2 var(--cond); text-transform: uppercase; letter-spacing: .06em; color: var(--navy); text-underline-offset: 4px; }
+.site-footer__brand { font: 1.4rem/1 var(--display); color: var(--navy); }
+.site-footer__brand em { font-style: normal; color: var(--red-dark); }
+.site-footer__legal { max-width: 56ch; font-size: .92rem; }
+
+/* ---------- Кнопки: «продавливаются» ---------- */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px; cursor: pointer; min-height: 48px;
+  font: 700 1.15rem/1.1 var(--cond); text-transform: uppercase; letter-spacing: .06em; text-align: center; text-decoration: none;
+  background: var(--red); color: #fff; border: 3px solid var(--navy); border-radius: 8px;
+  padding: .55rem 1.3rem; box-shadow: 4px 4px 0 var(--navy);
+  transition: transform .08s, box-shadow .08s;
+}
+.btn:hover { transform: translate(-1px, -1px); box-shadow: 5px 5px 0 var(--navy); }
+.btn:active { transform: translate(3px, 3px); box-shadow: 1px 1px 0 var(--navy); }
+.btn--ghost { background: var(--paper); color: var(--navy); }
+.btn--gold { background: var(--gold); color: var(--navy); }
+
+/* Золотой «маркер» под словами заголовков */
+.hl { background: linear-gradient(transparent 58%, var(--gold) 58% 92%, transparent 92%); color: inherit; padding: 0 .12em; margin: 0 -.12em; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+
+/* кастомный курсор: только мышь без reduced-motion (включается из JS) */
+.cursor {
+  position: fixed; z-index: 95; left: 0; top: 0; width: 32px; height: 32px; margin: -16px 0 0 -16px;
+  border: 2px solid #fff; border-radius: 50%; pointer-events: none; mix-blend-mode: difference;
+  transition: width .25s var(--ease-out), height .25s var(--ease-out), margin .25s var(--ease-out);
+}
+.cursor.is-hover { width: 58px; height: 58px; margin: -29px 0 0 -29px; }
+html.has-cursor, html.has-cursor a, html.has-cursor button { cursor: none; }

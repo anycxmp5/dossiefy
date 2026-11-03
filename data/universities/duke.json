@@ -1,0 +1,67 @@
+{
+  "id": "duke",
+  "name": "Duke University",
+  "common_app_slug": "duke-university",
+  "official_admissions_url": "https://admissions.duke.edu",
+  "fields": {
+    "deadlines": {
+      "value": [
+        { "round": "Early Decision (binding)", "date": "November 2" },
+        { "round": "Regular Decision", "date": "January 4" }
+      ],
+      "cycle": "2026–27",
+      "note_ru": "Страница прямо называет цикл 2026–27. Решения по ED приходят в середине декабря, по RD в конце марта или начале апреля.",
+      "source_url": "https://admissions.duke.edu/apply/",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "tests": {
+      "value": "Test-optional for 2026–27 (first-year and transfer)",
+      "cycle": "2026–27",
+      "note_ru": "SAT и ACT необязательны. Для интересующихся STEM-направлениями балл ACT Science поощряется, но не требуется. Баллы можно указать самостоятельно.",
+      "source_url": "https://admissions.duke.edu/apply/",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "english": {
+      "value": "No English proficiency score required; a test is recommended for non-native speakers (TOEFL, IELTS Academic, Duolingo, PTE Academic, Cambridge C1/C2)",
+      "cycle": "2026–27",
+      "note_ru": "Официально баллы по английскому не требуются, но для неносителей языка тест рекомендуется. На странице названы ориентиры: Duolingo 130, IELTS 7, PTE 70, Cambridge 180, TOEFL 100. В тексте страницы эти ориентиры стоят рядом с фразой «баллы не требуются», и между собой они не согласованы, поэтому внимательно прочитайте раздел на официальном сайте.",
+      "source_url": "https://admissions.duke.edu/apply/",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "essays": {
+      "value": "Common App personal essay plus Duke short essays of up to 250 words: required \"Why Duke\" and \"Communities\", plus one optional from three",
+      "cycle": "2026–27",
+      "note_ru": "Нужно основное эссе Common App и два обязательных коротких эссе Duke по 250 слов. Ещё одно эссе по выбору из трёх необязательно. Для творческих направлений есть необязательный Arts Supplement через SlideRoom.",
+      "source_url": "https://admissions.duke.edu/apply/",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "international": {
+      "value": "No separate application; non-English transcripts must be translated and the originals submitted too; I-20 is issued after you accept an offer",
+      "cycle": "2026–27",
+      "note_ru": "Отдельной анкеты для иностранцев нет. Документы не на английском нужно переводить и прикладывать оригиналы. Документ I-20 выдаётся только после того, как вы приняли предложение и вернули Certificate of Financial Responsibility.",
+      "source_url": "https://admissions.duke.edu/apply/",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "aid": {
+      "value": "Foreign citizens must apply for need-based aid in the original first-year application; admit rate for aid applicants is usually less than half the overall rate; a small number of merit scholarships",
+      "cycle": "2026–27",
+      "note_ru": "Подавать на помощь нужно сразу в основной заявке, потом получить её нельзя. Duke честно пишет, что процент принятых среди иностранцев, которым нужна помощь, обычно меньше половины общего. Небольшое число стипендий за заслуги рассматривается автоматически.",
+      "source_url": "https://admissions.duke.edu/apply/",
+      "verified_on": "2026-11-03",
+      "status": "verified"
+    },
+    "aid_forms": {
+      "value": "The aid office lists the CSS Profile and FAFSA with deadlines of November 3 (Early Decision) and February 1 (Regular Decision); which of them applies to international families is not stated",
+      "cycle": "not stated",
+      "note_ru": "На странице помощи для абитуриентов названы CSS Profile и FAFSA и сроки: 3 ноября для Early Decision и 1 февраля для Regular Decision. Какие из анкет нужны именно иностранной семье, страница не уточняет, поэтому уточните это в Office of Undergraduate Financial Aid.",
+      "source_url": "https://financialaid.duke.edu/undergraduate-applicants/apply-aid",
+      "verified_on": "2026-11-03",
+      "status": "needs_verification"
+    }
+  }
+}

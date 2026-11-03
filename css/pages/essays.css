@@ -1,0 +1,33 @@
+/* Эссе: хаб, уроки, примеры */
+.src { font: 700 .88rem/1.3 var(--cond); text-transform: uppercase; letter-spacing: .05em; color: var(--navy-2); margin: 0; }
+.src a { color: var(--navy); text-underline-offset: 3px; }
+.prompts { list-style: none; margin: 1rem 0; padding: 0; display: grid; gap: 12px; }
+.prompt { display: grid; grid-template-columns: auto 1fr; gap: 14px; padding: 14px 16px; background: var(--paper); border: 3px solid var(--navy); border-radius: 12px; box-shadow: 4px 4px 0 var(--navy); }
+.prompt__n { width: 40px; height: 40px; display: grid; place-items: center; font: 400 1.3rem/1 var(--display); background: var(--gold); border: 3px solid var(--navy); border-radius: 50%; }
+.prompt__text { margin: 0 0 .5rem; font-weight: 600; }
+.prompt__hint { margin: 0; font-size: .96rem; color: var(--ink); }
+.length { max-width: 46rem; }
+.length > * { margin: 0 0 .5rem; }
+.lessons { list-style: none; margin: 1rem 0 0; padding: 0; display: grid; gap: 10px; max-width: 46rem; }
+.lessons a { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: .3rem 1rem; padding: 14px 16px; text-decoration: none; color: var(--ink); background: var(--paper); border: 3px solid var(--navy); border-radius: 10px; box-shadow: 4px 4px 0 var(--navy); transition: transform .08s, box-shadow .08s; }
+.lessons a:hover { transform: translate(-1px, -1px); box-shadow: 5px 5px 0 var(--navy); }
+.lessons a:active { transform: translate(3px, 3px); box-shadow: 1px 1px 0 var(--navy); }
+.lesson-n { font: 400 1.3rem/1 var(--display); color: var(--red); min-width: 1.6rem; }
+.lesson-t { font-weight: 700; font-size: 1.08rem; }
+.lesson-t small { display: block; font-weight: 400; font-size: .92rem; color: var(--muted); margin-top: 2px; }
+.lesson-m { font: 700 .9rem/1 var(--cond); text-transform: uppercase; letter-spacing: .06em; color: var(--navy-2); }
+.kicker { color: var(--red-dark); margin: 0; }
+.related { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.pager { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .8rem 2rem; font: 700 1.05rem/1.3 var(--cond); text-transform: uppercase; letter-spacing: .05em; margin-top: 1.5rem; }
+.pager a { color: var(--navy); text-underline-offset: 4px; }
+.card > *:first-child { margin-top: 0; }
+.card p { margin: .6rem 0 0; }
+
+.examples { display: grid; gap: clamp(18px, 3vw, 28px); }
+.example { padding: clamp(16px, 3vw, 26px); background: var(--paper); border: 3px solid var(--navy); border-radius: 12px; box-shadow: 5px 5px 0 var(--navy); scroll-margin-top: calc(var(--hh) + 14px); }
+.example h2 { font-size: clamp(1.3rem, 3.5vw, 1.8rem); }
+.example__src { margin: .3rem 0 1rem; font: 700 .95rem/1.3 var(--cond); text-transform: uppercase; letter-spacing: .05em; color: var(--navy-2); }
+.example__facts { margin: 0; display: grid; gap: .8rem; }
+.example__facts dt { font: 700 1rem/1.2 var(--cond); text-transform: uppercase; letter-spacing: .06em; color: var(--red-dark); }
+.example__facts dd { margin: .15rem 0 0; }
+.example__links { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem 1rem; margin: 1rem 0 0; }

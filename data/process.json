@@ -1,0 +1,10 @@
+{
+  "steps": [
+    { "id": "universities", "num": "01", "title_key": "process.s1.title", "text_key": "process.s1.text" },
+    { "id": "deadlines",    "num": "02", "title_key": "process.s2.title", "text_key": "process.s2.text" },
+    { "id": "exams",        "num": "03", "title_key": "process.s3.title", "text_key": "process.s3.text" },
+    { "id": "documents",    "num": "04", "title_key": "process.s4.title", "text_key": "process.s4.text" },
+    { "id": "essays",       "num": "05", "title_key": "process.s5.title", "text_key": "process.s5.text" },
+    { "id": "money-visa",   "num": "06", "title_key": "process.s6.title", "text_key": "process.s6.text" }
+  ]
+}
