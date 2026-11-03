@@ -6,7 +6,7 @@
     "site_url": "https://dossiefy.com"
   },
   "indexable": false,
-  "telegram_url": "https://t.me/PLACEHOLDER_BOT",
+  "telegram_url": "https://t.me/dossiefy_review_bot",
   "review_service": {
     "price": "100 ₽",
     "turnaround": null,
