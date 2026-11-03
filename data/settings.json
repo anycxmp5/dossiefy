@@ -8,8 +8,8 @@
   "indexable": false,
   "telegram_url": "https://t.me/PLACEHOLDER_BOT",
   "review_service": {
-    "price": null,
+    "price": "100 ₽",
     "turnaround": null,
-    "disclosure_text": "Эссе разбирается с помощью ИИ-инструментов, итоговый отчёт проверяется вручную перед отправкой"
+    "disclosure_text": "Эссе разбирается вручную: итоговый отчёт готовит и проверяет человек перед отправкой"
   }
 }
